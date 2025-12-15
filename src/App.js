@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from "react";
+import SvList from "./componants/SvList";
 
 function App() {
+  const [count, setcount]=useState(0)
+  const students = [
+    { id: 1, name: "loc tran huu", age: 19 },
+    { id: 2, name: "loc tran ", age: 19 },
+    { id: 3, name: "loc ", age: 17 },
+    { id: 4, name: " tran huu", age: 59 },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+    <div>
+      <SvList students={students}  setcount={setcount}/>
+      <h1>Count: {count}</h1>
     </div>
-  );
+  )
 }
 
 export default App;

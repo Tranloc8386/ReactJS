@@ -1,13 +1,26 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
-import { Link } from 'react-router-dom'
-
+import { useNavigate } from "react-router-dom";
+import Button from "@mui/material/Button";
+import Stack from "@mui/material/Stack";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
 
 const Dashboard = () => {
   const [users, setuser] = useState([]);
   const [products, setproduct] = useState([]);
-  const localEmail=localStorage.getItem("userMail");
+  const navigate = useNavigate();
+
+  //xu ly log out
+  const handleLogout = () => {
+    navigate("/");
+  };
 
   const fetchDataUsers = async () => {
     try {
@@ -27,64 +40,66 @@ const Dashboard = () => {
     }
   };
 
- useEffect(() => {
-  fetchDataUsers();
-}, []);
+  useEffect(() => {
+    fetchDataUsers();
+  }, []);
 
-useEffect(()=>
-{
+  useEffect(() => {
     fetchDataProducts();
-}, [])
+  }, []);
 
   console.log(users);
-  console.log(products)
+  console.log(products);
 
-  return <div>
+  return (
     <div>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Price</th>
-
-                </tr>
-            </thead>
-            <tbody>
-                {products.map((product)=>(
-                    <tr key={product.id}>
-                        <td>{product.id}</td>
-                        <td>{product.price}</td>
-
-                    </tr>
-
-                ))}
-            </tbody>
-        </table>
+      <div onClick={handleLogout}>
+        <Stack direction="row" spacing={2}>
+          <Button variant="contained">Log out</Button>
+        </Stack>
+      </div>
+      <div>
+        <TableContainer component={Paper} sx={{ mb: 4 }}>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>ID</TableCell>
+                <TableCell>Price</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {products.map((product) => (
+                <TableRow key={product.id}>
+                  <TableCell>{product.id}</TableCell>
+                  <TableCell>{product.price}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </div>
+      <div>
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>ID</TableCell>
+                <TableCell>Name</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {users.map((user) => (
+                <TableRow key={user.id}>
+                  <TableCell>{user.id}</TableCell>
+                  <TableCell>{user.name.firstname}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </div>
     </div>
-    <div>
-      <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-
-                </tr>
-            </thead>
-            <tbody>
-                {users.map((user)=>(
-                    <tr key={user.id}>
-                        <td>{user.id}</td>
-                        <td>{user.name.firstname}</td>
-
-                    </tr>
-
-                ))}
-            </tbody>
-        </table>
-    </div>
-    <Link to ="/"><button>Logout</button></Link>
-  </div>;
-  
+  );
 };
 
 export default Dashboard;

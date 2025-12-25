@@ -1,42 +1,68 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 
 const Login = () => {
   const navigate = useNavigate();
+  const [email, setemail] = useState("");
+  const [password, setpassword] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    localStorage.setItem("userMail", email);
-    localStorage.setItem("password", password);
-    console.log("Da luu mail", email);
-    console.log("Loading...");
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    const newuser = { email, password };
+    users.push(newuser);
+
+    localStorage.setItem("users", JSON.stringify(users));
+    localStorage.setItem("currentUser", JSON.stringify(newuser));
+
+    //chuc nang dang nhap khi thanh cong
+    localStorage.setItem("isLogin", "true");
     navigate("/dashboard");
   };
 
-  const [email, setemail] = useState("");
-  const [password, setpassword] = useState("");
-
   return (
-    <div>
-      <form className="formBtn" onSubmit={handleSubmit}>
+     <Box
+      component="form"
+      onSubmit={handleSubmit}
+      sx={{
+        width: 300,
+        mx: "auto",
+        mt: 5,
+        p: 3,
+        border: "1px solid #ccc",
+        borderRadius: 2,
+      }}
+    >
+      <div>
+        <label>Email</label>
         <input
           type="email"
-          id="email"
           placeholder="Nhap email..."
           required
           value={email}
-          onChange={(e)=> setemail(e.target.value)}
-        ></input>
+          onChange={(e) => setemail(e.target.value)}
+        />
+      </div>
+
+      <div>
+        <label>Password</label>
         <input
-          type="text"
-          id="password"
+          type="password"
           placeholder="Nhap mat khau..."
           required
           value={password}
-          onChange={(e)=>setpassword(e.target.value)}
-        ></input>
-        <button type="submit">Login</button>
-      </form>
-    </div>
+          onChange={(e) => setpassword(e.target.value)}
+        />
+      </div>
+
+      <Stack spacing={2} sx={{ mt: 2 }}>
+        <Button type="submit" variant="contained" fullWidth>
+          Log in
+        </Button>
+      </Stack>
+    </Box>
   );
 };
 

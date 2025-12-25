@@ -1,0 +1,1973 @@
+0 verbose cli D:\node.exe D:\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:D:\node_modules\npm\npmrc
+4 silly config load:file:D:\APTECH\ReactJSS\day4\btvnday44\.npmrc
+5 silly config load:file:C:\Users\lộc\.npmrc
+6 silly config load:file:C:\Users\lộc\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install antd
+8 verbose argv "install" "antd"
+9 verbose logfile logs-max:10 dir:D:\APTECH\ReactJSS\day4\btvnday44\npm-cache\_logs\2025-12-21T18_58_09_672Z-
+10 verbose logfile D:\APTECH\ReactJSS\day4\btvnday44\npm-cache\_logs\2025-12-21T18_58_09_672Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest antd@*
+15 silly packumentCache full:https://registry.npmjs.org/antd cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/antd 1379ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/antd set size:undefined disposed:false
+18 silly fetch manifest react@^19.2.3
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 146ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:6362607 disposed:false
+22 silly fetch manifest react-dom@^19.2.3
+23 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react-dom 132ms (cache revalidated)
+25 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8375290 disposed:false
+26 silly placeDep ROOT antd@6.1.1 OK for: btvnday44@0.1.0 want: *
+27 silly fetch manifest clsx@^2.1.1
+28 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+29 silly fetch manifest dayjs@^1.11.11
+30 silly packumentCache full:https://registry.npmjs.org/dayjs cache-miss
+31 silly fetch manifest @ant-design/icons@^6.1.0
+32 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/clsx 65ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+35 silly fetch manifest throttle-debounce@^5.0.2
+36 silly packumentCache full:https://registry.npmjs.org/throttle-debounce cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/throttle-debounce 62ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/throttle-debounce set size:undefined disposed:false
+39 silly fetch manifest @ant-design/colors@^8.0.0
+40 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcolors cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/dayjs 231ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/dayjs set size:undefined disposed:false
+43 silly fetch manifest @rc-component/form@~1.5.0
+44 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fform cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@ant-design%2ficons 271ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons set size:undefined disposed:false
+47 silly fetch manifest @rc-component/menu@~1.2.0
+48 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmenu cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcolors 404ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcolors set size:undefined disposed:false
+51 silly fetch manifest @rc-component/rate@~1.0.1
+52 silly packumentCache full:https://registry.npmjs.org/@rc-component%2frate cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fform 552ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fform set size:undefined disposed:false
+55 silly fetch manifest @rc-component/tabs@~1.7.0
+56 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftabs cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/@rc-component%2frate 560ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/@rc-component%2frate set size:undefined disposed:false
+59 silly fetch manifest @rc-component/tour@~2.2.1
+60 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftour cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmenu 849ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmenu set size:undefined disposed:false
+63 silly fetch manifest @rc-component/tree@~1.1.0
+64 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftabs 851ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftabs set size:undefined disposed:false
+67 silly fetch manifest @rc-component/util@^1.6.0
+68 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftour 561ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftour set size:undefined disposed:false
+71 silly fetch manifest @ant-design/cssinjs@^2.0.1
+72 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftree 567ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree set size:undefined disposed:false
+75 silly fetch manifest @rc-component/image@~1.5.3
+76 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fimage cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcssinjs 84ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs set size:undefined disposed:false
+79 silly fetch manifest @rc-component/input@~1.1.2
+80 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/@rc-component%2futil 578ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil set size:undefined disposed:false
+83 silly fetch manifest @rc-component/steps@~1.2.2
+84 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsteps cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fimage 581ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fimage set size:undefined disposed:false
+87 silly fetch manifest @rc-component/table@~1.9.0
+88 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftable cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/@rc-component%2finput 560ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput set size:undefined disposed:false
+91 silly fetch manifest @rc-component/dialog@~1.5.1
+92 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdialog cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftable 551ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftable set size:undefined disposed:false
+95 silly fetch manifest @rc-component/drawer@~1.3.0
+96 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdrawer cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fdialog 859ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdialog set size:undefined disposed:false
+99 silly fetch manifest @rc-component/motion@~1.1.6
+100 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fsteps 1243ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsteps set size:undefined disposed:false
+103 silly fetch manifest @rc-component/picker@~1.9.0
+104 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpicker cache-miss
+105 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fdrawer 827ms (cache miss)
+106 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdrawer set size:undefined disposed:false
+107 silly fetch manifest @rc-component/qrcode@~1.1.1
+108 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fqrcode cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fpicker 575ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpicker set size:undefined disposed:false
+111 silly fetch manifest @rc-component/select@~1.3.5
+112 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect cache-miss
+113 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmotion 1247ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion set size:undefined disposed:false
+115 silly fetch manifest @rc-component/slider@~1.0.1
+116 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fslider cache-miss
+117 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fqrcode 946ms (cache miss)
+118 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fqrcode set size:undefined disposed:false
+119 silly fetch manifest @rc-component/switch@~1.0.3
+120 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fswitch cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fselect 616ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect set size:undefined disposed:false
+123 silly fetch manifest @rc-component/upload@~1.1.0
+124 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fupload cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fupload 574ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fupload set size:undefined disposed:false
+127 silly fetch manifest @rc-component/tooltip@~1.4.0
+128 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftooltip cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fslider 945ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fslider set size:undefined disposed:false
+131 silly fetch manifest @rc-component/trigger@^3.7.1
+132 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-miss
+133 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fswitch 834ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fswitch set size:undefined disposed:false
+135 silly fetch manifest @ant-design/fast-color@^3.0.0
+136 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ffast-color cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftooltip 560ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftooltip set size:undefined disposed:false
+139 silly fetch manifest @rc-component/cascader@~1.9.0
+140 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcascader cache-miss
+141 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftrigger 726ms (cache miss)
+142 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger set size:undefined disposed:false
+143 silly fetch manifest @rc-component/checkbox@~1.0.1
+144 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcheckbox cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/@ant-design%2ffast-color 675ms (cache miss)
+146 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ffast-color set size:undefined disposed:false
+147 silly fetch manifest @rc-component/collapse@~1.1.2
+148 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcollapse cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcascader 851ms (cache miss)
+150 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcascader set size:undefined disposed:false
+151 silly fetch manifest @rc-component/dropdown@~1.0.2
+152 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdropdown cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcheckbox 579ms (cache miss)
+154 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcheckbox set size:undefined disposed:false
+155 silly fetch manifest @rc-component/mentions@~1.6.0
+156 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmentions cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcollapse 964ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcollapse set size:undefined disposed:false
+159 silly fetch manifest @rc-component/progress@~1.0.2
+160 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fprogress cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fdropdown 583ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fdropdown set size:undefined disposed:false
+163 silly fetch manifest @rc-component/textarea@~1.1.2
+164 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmentions 628ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmentions set size:undefined disposed:false
+167 silly fetch manifest @ant-design/react-slick@~2.0.0
+168 silly packumentCache full:https://registry.npmjs.org/@ant-design%2freact-slick cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fprogress 852ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fprogress set size:undefined disposed:false
+171 silly fetch manifest @rc-component/segmented@~1.2.3
+172 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsegmented cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/@ant-design%2freact-slick 658ms (cache miss)
+174 silly packumentCache full:https://registry.npmjs.org/@ant-design%2freact-slick set size:undefined disposed:false
+175 silly fetch manifest @rc-component/pagination@~1.2.0
+176 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpagination cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftextarea 852ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea set size:undefined disposed:false
+179 silly fetch manifest @ant-design/cssinjs-utils@^2.0.2
+180 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs-utils cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fsegmented 553ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fsegmented set size:undefined disposed:false
+183 silly fetch manifest @rc-component/tree-select@~1.4.0
+184 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree-select cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/@ant-design%2fcssinjs-utils 628ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/@ant-design%2fcssinjs-utils set size:undefined disposed:false
+187 silly fetch manifest @rc-component/color-picker@~3.0.3
+188 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcolor-picker cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fpagination 847ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fpagination set size:undefined disposed:false
+191 silly fetch manifest @rc-component/input-number@~1.6.2
+192 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput-number cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcolor-picker 564ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcolor-picker set size:undefined disposed:false
+195 silly fetch manifest @rc-component/notification@~1.2.0
+196 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fnotification cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/@rc-component%2ftree-select 839ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftree-select set size:undefined disposed:false
+199 silly fetch manifest scroll-into-view-if-needed@^3.1.0
+200 silly packumentCache full:https://registry.npmjs.org/scroll-into-view-if-needed cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/scroll-into-view-if-needed 99ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/scroll-into-view-if-needed set size:undefined disposed:false
+203 silly fetch manifest @rc-component/mutate-observer@^2.0.1
+204 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmutate-observer cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/@rc-component%2finput-number 848ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/@rc-component%2finput-number set size:undefined disposed:false
+207 silly fetch manifest @rc-component/resize-observer@^1.0.1
+208 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fnotification 557ms (cache miss)
+210 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fnotification set size:undefined disposed:false
+211 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmutate-observer 537ms (cache miss)
+212 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmutate-observer set size:undefined disposed:false
+213 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fresize-observer 582ms (cache miss)
+214 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer set size:undefined disposed:false
+215 silly fetch manifest react@>=18.0.0
+216 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+217 http cache https://registry.npmjs.org/react 21ms (cache hit)
+218 silly packumentCache full:https://registry.npmjs.org/react set size:6362607 disposed:false
+219 silly fetch manifest react-dom@>=18.0.0
+220 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+221 http cache https://registry.npmjs.org/react-dom 47ms (cache hit)
+222 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8375290 disposed:false
+223 silly fetch manifest date-fns@>= 2.x
+224 silly packumentCache full:https://registry.npmjs.org/date-fns cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/date-fns 190ms (cache miss)
+226 silly packumentCache full:https://registry.npmjs.org/date-fns set size:undefined disposed:false
+227 silly fetch manifest luxon@>= 3.x
+228 silly packumentCache full:https://registry.npmjs.org/luxon cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/luxon 77ms (cache miss)
+230 silly packumentCache full:https://registry.npmjs.org/luxon set size:undefined disposed:false
+231 silly fetch manifest moment@>= 2.x
+232 silly packumentCache full:https://registry.npmjs.org/moment cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/moment 67ms (cache miss)
+234 silly packumentCache full:https://registry.npmjs.org/moment set size:undefined disposed:false
+235 silly placeDep ROOT @ant-design/colors@8.0.0 OK for: antd@6.1.1 want: ^8.0.0
+236 silly placeDep ROOT @ant-design/cssinjs@2.0.1 OK for: antd@6.1.1 want: ^2.0.1
+237 silly placeDep ROOT @ant-design/cssinjs-utils@2.0.2 OK for: antd@6.1.1 want: ^2.0.2
+238 silly placeDep ROOT @ant-design/fast-color@3.0.0 OK for: antd@6.1.1 want: ^3.0.0
+239 silly placeDep ROOT @ant-design/icons@6.1.0 OK for: antd@6.1.1 want: ^6.1.0
+240 silly placeDep ROOT @ant-design/react-slick@2.0.0 OK for: antd@6.1.1 want: ~2.0.0
+241 silly placeDep ROOT @rc-component/cascader@1.9.0 OK for: antd@6.1.1 want: ~1.9.0
+242 silly placeDep ROOT @rc-component/checkbox@1.0.1 OK for: antd@6.1.1 want: ~1.0.1
+243 silly placeDep ROOT @rc-component/collapse@1.1.2 OK for: antd@6.1.1 want: ~1.1.2
+244 silly placeDep ROOT @rc-component/color-picker@3.0.3 OK for: antd@6.1.1 want: ~3.0.3
+245 silly placeDep ROOT @rc-component/dialog@1.5.1 OK for: antd@6.1.1 want: ~1.5.1
+246 silly placeDep ROOT @rc-component/drawer@1.3.0 OK for: antd@6.1.1 want: ~1.3.0
+247 silly placeDep ROOT @rc-component/dropdown@1.0.2 OK for: antd@6.1.1 want: ~1.0.2
+248 silly placeDep ROOT @rc-component/form@1.5.0 OK for: antd@6.1.1 want: ~1.5.0
+249 silly placeDep ROOT @rc-component/image@1.5.3 OK for: antd@6.1.1 want: ~1.5.3
+250 silly placeDep ROOT @rc-component/input@1.1.2 OK for: antd@6.1.1 want: ~1.1.2
+251 silly placeDep ROOT @rc-component/input-number@1.6.2 OK for: antd@6.1.1 want: ~1.6.2
+252 silly placeDep ROOT @rc-component/mentions@1.6.0 OK for: antd@6.1.1 want: ~1.6.0
+253 silly placeDep ROOT @rc-component/menu@1.2.0 OK for: antd@6.1.1 want: ~1.2.0
+254 silly placeDep ROOT @rc-component/motion@1.1.6 OK for: antd@6.1.1 want: ~1.1.6
+255 silly placeDep ROOT @rc-component/mutate-observer@2.0.1 OK for: antd@6.1.1 want: ^2.0.1
+256 silly placeDep ROOT @rc-component/notification@1.2.0 OK for: antd@6.1.1 want: ~1.2.0
+257 silly placeDep ROOT @rc-component/pagination@1.2.0 OK for: antd@6.1.1 want: ~1.2.0
+258 silly placeDep ROOT @rc-component/picker@1.9.0 OK for: antd@6.1.1 want: ~1.9.0
+259 silly placeDep ROOT @rc-component/progress@1.0.2 OK for: antd@6.1.1 want: ~1.0.2
+260 silly placeDep ROOT @rc-component/qrcode@1.1.1 OK for: antd@6.1.1 want: ~1.1.1
+261 silly placeDep ROOT @rc-component/rate@1.0.1 OK for: antd@6.1.1 want: ~1.0.1
+262 silly placeDep ROOT @rc-component/resize-observer@1.0.1 OK for: antd@6.1.1 want: ^1.0.1
+263 silly placeDep ROOT @rc-component/segmented@1.2.3 OK for: antd@6.1.1 want: ~1.2.3
+264 silly placeDep ROOT @rc-component/select@1.3.6 OK for: antd@6.1.1 want: ~1.3.5
+265 silly placeDep ROOT @rc-component/slider@1.0.1 OK for: antd@6.1.1 want: ~1.0.1
+266 silly placeDep ROOT @rc-component/steps@1.2.2 OK for: antd@6.1.1 want: ~1.2.2
+267 silly placeDep ROOT @rc-component/switch@1.0.3 OK for: antd@6.1.1 want: ~1.0.3
+268 silly placeDep ROOT @rc-component/table@1.9.0 OK for: antd@6.1.1 want: ~1.9.0
+269 silly placeDep ROOT @rc-component/tabs@1.7.0 OK for: antd@6.1.1 want: ~1.7.0
+270 silly placeDep ROOT @rc-component/textarea@1.1.2 OK for: antd@6.1.1 want: ~1.1.2
+271 silly placeDep ROOT @rc-component/tooltip@1.4.0 OK for: antd@6.1.1 want: ~1.4.0
+272 silly placeDep ROOT @rc-component/tour@2.2.1 OK for: antd@6.1.1 want: ~2.2.1
+273 silly placeDep ROOT @rc-component/tree@1.1.0 OK for: antd@6.1.1 want: ~1.1.0
+274 silly placeDep ROOT @rc-component/tree-select@1.4.0 OK for: antd@6.1.1 want: ~1.4.0
+275 silly placeDep ROOT @rc-component/trigger@3.7.2 OK for: antd@6.1.1 want: ^3.7.1
+276 silly placeDep ROOT @rc-component/upload@1.1.0 OK for: antd@6.1.1 want: ~1.1.0
+277 silly placeDep ROOT @rc-component/util@1.6.0 OK for: antd@6.1.1 want: ^1.6.0
+278 silly placeDep ROOT clsx@2.1.1 OK for: antd@6.1.1 want: ^2.1.1
+279 silly placeDep ROOT dayjs@1.11.19 OK for: antd@6.1.1 want: ^1.11.11
+280 silly placeDep ROOT scroll-into-view-if-needed@3.1.0 OK for: antd@6.1.1 want: ^3.1.0
+281 silly placeDep ROOT throttle-debounce@5.0.2 OK for: antd@6.1.1 want: ^5.0.2
+282 silly fetch manifest @emotion/hash@^0.8.0
+283 silly packumentCache full:https://registry.npmjs.org/@emotion%2fhash cache-miss
+284 silly fetch manifest @emotion/unitless@^0.7.5
+285 silly packumentCache full:https://registry.npmjs.org/@emotion%2funitless cache-miss
+286 silly fetch manifest @rc-component/util@^1.4.0
+287 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-miss
+288 http cache https://registry.npmjs.org/@rc-component%2futil 10ms (cache hit)
+289 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil set size:39049 disposed:false
+290 silly fetch manifest csstype@^3.1.3
+291 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+292 http fetch GET 200 https://registry.npmjs.org/@emotion%2funitless 67ms (cache miss)
+293 silly packumentCache full:https://registry.npmjs.org/@emotion%2funitless set size:undefined disposed:false
+294 silly fetch manifest stylis@^4.3.4
+295 silly packumentCache full:https://registry.npmjs.org/stylis cache-miss
+296 http fetch GET 200 https://registry.npmjs.org/@emotion%2fhash 127ms (cache miss)
+297 silly packumentCache full:https://registry.npmjs.org/@emotion%2fhash set size:undefined disposed:false
+298 silly fetch manifest @rc-component/util@^1.3.0
+299 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-hit
+300 silly fetch manifest @ant-design/icons-svg@^4.4.0
+301 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons-svg cache-miss
+302 http fetch GET 200 https://registry.npmjs.org/csstype 123ms (cache miss)
+303 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+304 silly fetch manifest json2mq@^0.2.0
+305 silly packumentCache full:https://registry.npmjs.org/json2mq cache-miss
+306 http fetch GET 200 https://registry.npmjs.org/stylis 78ms (cache miss)
+307 silly packumentCache full:https://registry.npmjs.org/stylis set size:undefined disposed:false
+308 silly fetch manifest throttle-debounce@^5.0.0
+309 silly packumentCache full:https://registry.npmjs.org/throttle-debounce cache-miss
+310 http cache https://registry.npmjs.org/throttle-debounce 101ms (cache hit)
+311 silly packumentCache full:https://registry.npmjs.org/throttle-debounce set size:73345 disposed:false
+312 silly fetch manifest @rc-component/select@~1.3.0
+313 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect cache-miss
+314 http cache https://registry.npmjs.org/@rc-component%2fselect 29ms (cache hit)
+315 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fselect set size:105143 disposed:false
+316 silly fetch manifest @rc-component/motion@^1.1.4
+317 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-miss
+318 http cache https://registry.npmjs.org/@rc-component%2fmotion 4ms (cache hit)
+319 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion set size:27975 disposed:false
+320 silly fetch manifest @rc-component/util@^1.0.1
+321 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-hit
+322 silly fetch manifest @rc-component/motion@^1.1.3
+323 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-hit
+324 silly fetch manifest @rc-component/portal@^2.0.0
+325 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal cache-miss
+326 http fetch GET 200 https://registry.npmjs.org/json2mq 194ms (cache miss)
+327 silly packumentCache full:https://registry.npmjs.org/json2mq set size:undefined disposed:false
+328 silly fetch manifest @rc-component/portal@^2.0.0
+329 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal cache-miss
+330 http fetch GET 200 https://registry.npmjs.org/@ant-design%2ficons-svg 217ms (cache miss)
+331 silly packumentCache full:https://registry.npmjs.org/@ant-design%2ficons-svg set size:undefined disposed:false
+332 silly fetch manifest @rc-component/util@^1.2.1
+333 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-hit
+334 silly fetch manifest @rc-component/trigger@^3.0.0
+335 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-miss
+336 http cache https://registry.npmjs.org/@rc-component%2ftrigger 7ms (cache hit)
+337 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger set size:366916 disposed:false
+338 silly fetch manifest @rc-component/async-validator@^5.0.3
+339 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fasync-validator cache-miss
+340 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fportal 421ms (cache miss)
+341 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal set size:undefined disposed:false
+342 silly fetch manifest @rc-component/util@^1.5.0
+343 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-hit
+344 silly fetch manifest @rc-component/motion@^1.0.0
+345 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmotion cache-hit
+346 silly fetch manifest @rc-component/mini-decimal@^1.0.1
+347 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmini-decimal cache-miss
+348 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fportal 395ms (cache miss)
+349 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fportal set size:undefined disposed:false
+350 silly fetch manifest @rc-component/textarea@~1.1.0
+351 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea cache-miss
+352 http cache https://registry.npmjs.org/@rc-component%2ftextarea 7ms (cache hit)
+353 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftextarea set size:15558 disposed:false
+354 silly fetch manifest @rc-component/overflow@^1.0.0
+355 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow cache-miss
+356 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fasync-validator 416ms (cache miss)
+357 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fasync-validator set size:undefined disposed:false
+358 silly fetch manifest @rc-component/util@^1.2.0
+359 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-hit
+360 silly fetch manifest @rc-component/overflow@^1.0.0
+361 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow cache-miss
+362 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fmini-decimal 562ms (cache miss)
+363 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fmini-decimal set size:undefined disposed:false
+364 silly fetch manifest @rc-component/resize-observer@^1.0.0
+365 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer cache-miss
+366 http cache https://registry.npmjs.org/@rc-component%2fresize-observer 5ms (cache hit)
+367 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fresize-observer set size:8809 disposed:false
+368 silly fetch manifest @rc-component/trigger@^3.6.15
+369 silly packumentCache full:https://registry.npmjs.org/@rc-component%2ftrigger cache-hit
+370 silly fetch manifest @rc-component/overflow@^1.0.0
+371 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow cache-miss
+372 http fetch GET 200 https://registry.npmjs.org/@rc-component%2foverflow 875ms (cache miss)
+373 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow set size:undefined disposed:false
+374 silly fetch manifest @rc-component/virtual-list@^1.0.1
+375 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list cache-miss
+376 http fetch GET 200 https://registry.npmjs.org/@rc-component%2foverflow 364ms (cache miss)
+377 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow set size:undefined disposed:false
+378 silly fetch manifest @rc-component/context@^2.0.1
+379 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcontext cache-miss
+380 http fetch GET 200 https://registry.npmjs.org/@rc-component%2foverflow 1051ms (cache miss)
+381 silly packumentCache full:https://registry.npmjs.org/@rc-component%2foverflow set size:undefined disposed:false
+382 silly fetch manifest @rc-component/util@^1.1.0
+383 silly packumentCache full:https://registry.npmjs.org/@rc-component%2futil cache-hit
+384 silly fetch manifest @rc-component/virtual-list@^1.0.1
+385 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list cache-miss
+386 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fcontext 401ms (cache miss)
+387 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fcontext set size:undefined disposed:false
+388 silly fetch manifest @rc-component/virtual-list@^1.0.1
+389 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list cache-miss
+390 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fvirtual-list 259ms (cache miss)
+391 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list set size:undefined disposed:false
+392 silly fetch manifest is-mobile@^5.0.0
+393 silly packumentCache full:https://registry.npmjs.org/is-mobile cache-miss
+394 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fvirtual-list 672ms (cache miss)
+395 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list set size:undefined disposed:false
+396 silly fetch manifest react-is@^18.2.0
+397 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+398 http fetch GET 200 https://registry.npmjs.org/@rc-component%2fvirtual-list 538ms (cache miss)
+399 silly packumentCache full:https://registry.npmjs.org/@rc-component%2fvirtual-list set size:undefined disposed:false
+400 silly fetch manifest compute-scroll-into-view@^3.0.2
+401 silly packumentCache full:https://registry.npmjs.org/compute-scroll-into-view cache-miss
+402 http fetch GET 200 https://registry.npmjs.org/is-mobile 242ms (cache miss)
+403 silly packumentCache full:https://registry.npmjs.org/is-mobile set size:undefined disposed:false
+404 http fetch GET 200 https://registry.npmjs.org/react-is 265ms (cache miss)
+405 silly packumentCache full:https://registry.npmjs.org/react-is set size:undefined disposed:false
+406 http fetch GET 200 https://registry.npmjs.org/compute-scroll-into-view 519ms (cache miss)
+407 silly packumentCache full:https://registry.npmjs.org/compute-scroll-into-view set size:undefined disposed:false
+408 silly placeDep ROOT @emotion/hash@0.8.0 OK for: @ant-design/cssinjs@2.0.1 want: ^0.8.0
+409 silly placeDep ROOT @emotion/unitless@0.7.5 OK for: @ant-design/cssinjs@2.0.1 want: ^0.7.5
+410 silly placeDep ROOT csstype@3.2.3 OK for: @ant-design/cssinjs@2.0.1 want: ^3.1.3
+411 silly placeDep ROOT stylis@4.3.6 OK for: @ant-design/cssinjs@2.0.1 want: ^4.3.4
+412 silly placeDep ROOT @ant-design/icons-svg@4.4.2 OK for: @ant-design/icons@6.1.0 want: ^4.4.0
+413 silly placeDep ROOT json2mq@0.2.0 OK for: @ant-design/react-slick@2.0.0 want: ^0.2.0
+414 silly fetch manifest string-convert@^0.2.0
+415 silly packumentCache full:https://registry.npmjs.org/string-convert cache-miss
+416 http fetch GET 200 https://registry.npmjs.org/string-convert 50ms (cache miss)
+417 silly packumentCache full:https://registry.npmjs.org/string-convert set size:undefined disposed:false
+418 silly placeDep ROOT @rc-component/portal@2.0.1 OK for: @rc-component/dialog@1.5.1 want: ^2.0.0
+419 silly placeDep ROOT @rc-component/async-validator@5.0.4 OK for: @rc-component/form@1.5.0 want: ^5.0.3
+420 silly placeDep ROOT @rc-component/mini-decimal@1.1.0 OK for: @rc-component/input-number@1.6.2 want: ^1.0.1
+421 silly fetch manifest react@>=16.9.0
+422 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+423 http cache https://registry.npmjs.org/react 22ms (cache hit)
+424 silly packumentCache full:https://registry.npmjs.org/react set size:6362607 disposed:false
+425 silly fetch manifest react-dom@>=16.9.0
+426 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+427 http cache https://registry.npmjs.org/react-dom 28ms (cache hit)
+428 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8375290 disposed:false
+429 silly placeDep ROOT @rc-component/overflow@1.0.0 OK for: @rc-component/menu@1.2.0 want: ^1.0.0
+430 silly fetch manifest react@*
+431 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+432 http cache https://registry.npmjs.org/react 59ms (cache hit)
+433 silly packumentCache full:https://registry.npmjs.org/react set size:6362607 disposed:false
+434 silly fetch manifest react-dom@*
+435 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+436 http cache https://registry.npmjs.org/react-dom 66ms (cache hit)
+437 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8375290 disposed:false
+438 silly placeDep ROOT @rc-component/virtual-list@1.0.2 OK for: @rc-component/select@1.3.6 want: ^1.0.1
+439 silly placeDep ROOT @rc-component/context@2.0.1 OK for: @rc-component/table@1.9.0 want: ^2.0.1
+440 silly placeDep ROOT is-mobile@5.0.0 OK for: @rc-component/util@1.6.0 want: ^5.0.0
+441 silly placeDep node_modules/@rc-component/util react-is@18.3.1 OK for: @rc-component/util@1.6.0 want: ^18.2.0
+442 silly placeDep ROOT string-convert@0.2.1 OK for: json2mq@0.2.0 want: ^0.2.0
+443 silly placeDep ROOT compute-scroll-into-view@3.1.1 OK for: scroll-into-view-if-needed@3.1.0 want: ^3.0.2
+444 silly fetch manifest yaml@^2.4.2
+445 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+446 http fetch GET 200 https://registry.npmjs.org/yaml 103ms (cache revalidated)
+447 silly packumentCache full:https://registry.npmjs.org/yaml set size:364997 disposed:false
+448 silly placeDep node_modules/tailwindcss yaml@2.8.2 OK for: postcss-load-config@6.0.1 want: ^2.4.2
+449 silly reify moves {}
+450 silly audit bulk request {
+450 silly audit   '@adobe/css-tools': [ '4.4.4' ],
+450 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+450 silly audit   '@babel/code-frame': [ '7.27.1' ],
+450 silly audit   '@babel/compat-data': [ '7.28.5' ],
+450 silly audit   '@babel/core': [ '7.28.5' ],
+450 silly audit   semver: [ '6.3.1', '7.7.3' ],
+450 silly audit   '@babel/eslint-parser': [ '7.28.5' ],
+450 silly audit   'eslint-visitor-keys': [ '2.1.0', '3.4.3' ],
+450 silly audit   '@babel/generator': [ '7.28.5' ],
+450 silly audit   '@babel/helper-annotate-as-pure': [ '7.27.3' ],
+450 silly audit   '@babel/helper-compilation-targets': [ '7.27.2' ],
+450 silly audit   '@babel/helper-create-class-features-plugin': [ '7.28.5' ],
+450 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.28.5' ],
+450 silly audit   '@babel/helper-define-polyfill-provider': [ '0.6.5' ],
+450 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+450 silly audit   '@babel/helper-member-expression-to-functions': [ '7.28.5' ],
+450 silly audit   '@babel/helper-module-imports': [ '7.27.1' ],
+450 silly audit   '@babel/helper-module-transforms': [ '7.28.3' ],
+450 silly audit   '@babel/helper-optimise-call-expression': [ '7.27.1' ],
+450 silly audit   '@babel/helper-plugin-utils': [ '7.27.1' ],
+450 silly audit   '@babel/helper-remap-async-to-generator': [ '7.27.1' ],
+450 silly audit   '@babel/helper-replace-supers': [ '7.27.1' ],
+450 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.27.1' ],
+450 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+450 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+450 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+450 silly audit   '@babel/helper-wrap-function': [ '7.28.3' ],
+450 silly audit   '@babel/helpers': [ '7.28.4' ],
+450 silly audit   '@babel/parser': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-bugfix-firefox-class-in-computed-class-key': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-bugfix-safari-class-field-initializer-scope': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly': [ '7.28.3' ],
+450 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+450 silly audit   '@babel/plugin-proposal-decorators': [ '7.28.0' ],
+450 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+450 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+450 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.21.0' ],
+450 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+450 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.21.0-placeholder-for-preset-env.2', '7.21.11' ],
+450 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+450 silly audit   '@babel/plugin-syntax-bigint': [ '7.8.3' ],
+450 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+450 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+450 silly audit   '@babel/plugin-syntax-decorators': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-syntax-flow': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-syntax-import-attributes': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-syntax-import-meta': [ '7.10.4' ],
+450 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+450 silly audit   '@babel/plugin-syntax-jsx': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+450 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+450 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+450 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+450 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+450 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+450 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+450 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+450 silly audit   '@babel/plugin-syntax-typescript': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-syntax-unicode-sets-regex': [ '7.18.6' ],
+450 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-async-generator-functions': [ '7.28.0' ],
+450 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-block-scoping': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-class-properties': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-class-static-block': [ '7.28.3' ],
+450 silly audit   '@babel/plugin-transform-classes': [ '7.28.4' ],
+450 silly audit   '@babel/plugin-transform-computed-properties': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-destructuring': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-duplicate-named-capturing-groups-regex': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-dynamic-import': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-explicit-resource-management': [ '7.28.0' ],
+450 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-export-namespace-from': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-flow-strip-types': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-for-of': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-function-name': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-json-strings': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-literals': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-logical-assignment-operators': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-modules-amd': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-modules-umd': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-new-target': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-nullish-coalescing-operator': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-numeric-separator': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-object-rest-spread': [ '7.28.4' ],
+450 silly audit   '@babel/plugin-transform-object-super': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-optional-catch-binding': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-optional-chaining': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-parameters': [ '7.27.7' ],
+450 silly audit   '@babel/plugin-transform-private-methods': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-private-property-in-object': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-property-literals': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-react-constant-elements': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-react-display-name': [ '7.28.0' ],
+450 silly audit   '@babel/plugin-transform-react-jsx': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-react-jsx-development': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-react-pure-annotations': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-regenerator': [ '7.28.4' ],
+450 silly audit   '@babel/plugin-transform-regexp-modifiers': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-reserved-words': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-runtime': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-spread': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-template-literals': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-typescript': [ '7.28.5' ],
+450 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-unicode-property-regex': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.27.1' ],
+450 silly audit   '@babel/plugin-transform-unicode-sets-regex': [ '7.27.1' ],
+450 silly audit   '@babel/preset-env': [ '7.28.5' ],
+450 silly audit   '@babel/preset-modules': [ '0.1.6-no-external-plugins' ],
+450 silly audit   '@babel/preset-react': [ '7.28.5' ],
+450 silly audit   '@babel/preset-typescript': [ '7.28.5' ],
+450 silly audit   '@babel/runtime': [ '7.28.4' ],
+450 silly audit   '@babel/template': [ '7.27.2' ],
+450 silly audit   '@babel/traverse': [ '7.28.5' ],
+450 silly audit   '@babel/types': [ '7.28.5' ],
+450 silly audit   '@bcoe/v8-coverage': [ '0.2.3' ],
+450 silly audit   '@csstools/normalize.css': [ '12.1.1' ],
+450 silly audit   '@csstools/postcss-cascade-layers': [ '1.1.1' ],
+450 silly audit   '@csstools/postcss-color-function': [ '1.1.1' ],
+450 silly audit   '@csstools/postcss-font-format-keywords': [ '1.0.1' ],
+450 silly audit   '@csstools/postcss-hwb-function': [ '1.0.2' ],
+450 silly audit   '@csstools/postcss-ic-unit': [ '1.0.1' ],
+450 silly audit   '@csstools/postcss-is-pseudo-class': [ '2.0.7' ],
+450 silly audit   '@csstools/postcss-nested-calc': [ '1.0.0' ],
+450 silly audit   '@csstools/postcss-normalize-display-values': [ '1.0.1' ],
+450 silly audit   '@csstools/postcss-oklab-function': [ '1.1.1' ],
+450 silly audit   '@csstools/postcss-progressive-custom-properties': [ '1.3.0' ],
+450 silly audit   '@csstools/postcss-stepped-value-functions': [ '1.0.1' ],
+450 silly audit   '@csstools/postcss-text-decoration-shorthand': [ '1.0.0' ],
+450 silly audit   '@csstools/postcss-trigonometric-functions': [ '1.0.2' ],
+450 silly audit   '@csstools/postcss-unset-value': [ '1.0.2' ],
+450 silly audit   '@csstools/selector-specificity': [ '2.2.0' ],
+450 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+450 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+450 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+450 silly audit   argparse: [ '2.0.1', '1.0.10' ],
+450 silly audit   'js-yaml': [ '4.1.1', '3.14.2' ],
+450 silly audit   '@eslint/js': [ '8.57.1' ],
+450 silly audit   '@humanwhocodes/config-array': [ '0.13.0' ],
+450 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+450 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+450 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+450 silly audit   camelcase: [ '5.3.1', '6.3.0' ],
+450 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+450 silly audit   '@jest/console': [ '27.5.1', '28.1.3' ],
+450 silly audit   '@jest/core': [ '27.5.1' ],
+450 silly audit   '@jest/environment': [ '27.5.1' ],
+450 silly audit   '@jest/fake-timers': [ '27.5.1' ],
+450 silly audit   '@jest/globals': [ '27.5.1' ],
+450 silly audit   '@jest/reporters': [ '27.5.1' ],
+450 silly audit   'source-map': [ '0.6.1', '0.7.6', '0.8.0-beta.0' ],
+450 silly audit   '@jest/schemas': [ '28.1.3' ],
+450 silly audit   '@jest/source-map': [ '27.5.1' ],
+450 silly audit   '@jest/test-result': [ '27.5.1', '28.1.3' ],
+450 silly audit   '@jest/test-sequencer': [ '27.5.1' ],
+450 silly audit   '@jest/transform': [ '27.5.1' ],
+450 silly audit   'convert-source-map': [ '1.9.0', '2.0.0' ],
+450 silly audit   '@jest/types': [ '27.5.1', '28.1.3' ],
+450 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+450 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+450 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+450 silly audit   '@jridgewell/source-map': [ '0.3.11' ],
+450 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+450 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+450 silly audit   '@leichtgewicht/ip-codec': [ '2.0.5' ],
+450 silly audit   '@nicolo-ribaudo/eslint-scope-5-internals': [ '5.1.1-v1' ],
+450 silly audit   'eslint-scope': [ '5.1.1', '7.2.2' ],
+450 silly audit   estraverse: [ '4.3.0', '5.3.0' ],
+450 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+450 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+450 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+450 silly audit   '@pmmmwh/react-refresh-webpack-plugin': [ '0.5.17' ],
+450 silly audit   '@rollup/plugin-babel': [ '5.3.1' ],
+450 silly audit   '@rollup/plugin-node-resolve': [ '11.2.1' ],
+450 silly audit   '@rollup/plugin-replace': [ '2.4.2' ],
+450 silly audit   '@rollup/pluginutils': [ '3.1.0' ],
+450 silly audit   '@types/estree': [ '0.0.39', '1.0.8' ],
+450 silly audit   '@rtsao/scc': [ '1.1.0' ],
+450 silly audit   '@rushstack/eslint-patch': [ '1.15.0' ],
+450 silly audit   '@sinclair/typebox': [ '0.24.51' ],
+450 silly audit   '@sinonjs/commons': [ '1.8.6' ],
+450 silly audit   '@sinonjs/fake-timers': [ '8.1.0' ],
+450 silly audit   '@surma/rollup-plugin-off-main-thread': [ '2.2.3' ],
+450 silly audit   '@svgr/babel-plugin-add-jsx-attribute': [ '5.4.0' ],
+450 silly audit   '@svgr/babel-plugin-remove-jsx-attribute': [ '5.4.0' ],
+450 silly audit   '@svgr/babel-plugin-remove-jsx-empty-expression': [ '5.0.1' ],
+450 silly audit   '@svgr/babel-plugin-replace-jsx-attribute-value': [ '5.0.1' ],
+450 silly audit   '@svgr/babel-plugin-svg-dynamic-title': [ '5.4.0' ],
+450 silly audit   '@svgr/babel-plugin-svg-em-dimensions': [ '5.4.0' ],
+450 silly audit   '@svgr/babel-plugin-transform-react-native-svg': [ '5.4.0' ],
+450 silly audit   '@svgr/babel-plugin-transform-svg-component': [ '5.5.0' ],
+450 silly audit   '@svgr/babel-preset': [ '5.5.0' ],
+450 silly audit   '@svgr/core': [ '5.5.0' ],
+450 silly audit   '@svgr/hast-util-to-babel-ast': [ '5.5.0' ],
+450 silly audit   '@svgr/plugin-jsx': [ '5.5.0' ],
+450 silly audit   '@svgr/plugin-svgo': [ '5.5.0' ],
+450 silly audit   '@svgr/webpack': [ '5.5.0' ],
+450 silly audit   '@testing-library/dom': [ '10.4.1' ],
+450 silly audit   'aria-query': [ '5.3.0', '5.3.2' ],
+450 silly audit   '@testing-library/jest-dom': [ '6.9.1' ],
+450 silly audit   'dom-accessibility-api': [ '0.6.3', '0.5.16' ],
+450 silly audit   '@testing-library/react': [ '16.3.1' ],
+450 silly audit   '@testing-library/user-event': [ '13.5.0' ],
+450 silly audit   '@tootallnate/once': [ '1.1.2' ],
+450 silly audit   '@trysound/sax': [ '0.2.0' ],
+450 silly audit   '@types/aria-query': [ '5.0.4' ],
+450 silly audit   '@types/babel__core': [ '7.20.5' ],
+450 silly audit   '@types/babel__generator': [ '7.27.0' ],
+450 silly audit   '@types/babel__template': [ '7.4.4' ],
+450 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+450 silly audit   '@types/body-parser': [ '1.19.6' ],
+450 silly audit   '@types/bonjour': [ '3.5.13' ],
+450 silly audit   '@types/connect': [ '3.4.38' ],
+450 silly audit   '@types/connect-history-api-fallback': [ '1.5.4' ],
+450 silly audit   '@types/eslint': [ '8.56.12' ],
+450 silly audit   '@types/eslint-scope': [ '3.7.7' ],
+450 silly audit   '@types/express': [ '4.17.25' ],
+450 silly audit   '@types/express-serve-static-core': [ '5.1.0', '4.19.7' ],
+450 silly audit   '@types/graceful-fs': [ '4.1.9' ],
+450 silly audit   '@types/html-minifier-terser': [ '6.1.0' ],
+450 silly audit   '@types/http-errors': [ '2.0.5' ],
+450 silly audit   '@types/http-proxy': [ '1.17.17' ],
+450 silly audit   '@types/istanbul-lib-coverage': [ '2.0.6' ],
+450 silly audit   '@types/istanbul-lib-report': [ '3.0.3' ],
+450 silly audit   '@types/istanbul-reports': [ '3.0.4' ],
+450 silly audit   '@types/json-schema': [ '7.0.15' ],
+450 silly audit   '@types/json5': [ '0.0.29' ],
+450 silly audit   '@types/mime': [ '1.3.5' ],
+450 silly audit   '@types/node': [ '25.0.3' ],
+450 silly audit   '@types/node-forge': [ '1.3.14' ],
+450 silly audit   '@types/parse-json': [ '4.0.2' ],
+450 silly audit   '@types/prettier': [ '2.7.3' ],
+450 silly audit   '@types/q': [ '1.5.8' ],
+450 silly audit   '@types/qs': [ '6.14.0' ],
+450 silly audit   '@types/range-parser': [ '1.2.7' ],
+450 silly audit   '@types/resolve': [ '1.17.1' ],
+450 silly audit   '@types/retry': [ '0.12.0' ],
+450 silly audit   '@types/semver': [ '7.7.1' ],
+450 silly audit   '@types/send': [ '1.2.1', '0.17.6' ],
+450 silly audit   '@types/serve-index': [ '1.9.4' ],
+450 silly audit   '@types/serve-static': [ '1.15.10' ],
+450 silly audit   '@types/sockjs': [ '0.3.36' ],
+450 silly audit   '@types/stack-utils': [ '2.0.3' ],
+450 silly audit   '@types/trusted-types': [ '2.0.7' ],
+450 silly audit   '@types/ws': [ '8.18.1' ],
+450 silly audit   '@types/yargs': [ '16.0.11', '17.0.35' ],
+450 silly audit   '@types/yargs-parser': [ '21.0.3' ],
+450 silly audit   '@typescript-eslint/eslint-plugin': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/experimental-utils': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/parser': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/scope-manager': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/type-utils': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/types': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/typescript-estree': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/utils': [ '5.62.0' ],
+450 silly audit   '@typescript-eslint/visitor-keys': [ '5.62.0' ],
+450 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+450 silly audit   '@webassemblyjs/ast': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/helper-api-error': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/helper-buffer': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/helper-numbers': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/ieee754': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/leb128': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/utf8': [ '1.13.2' ],
+450 silly audit   '@webassemblyjs/wasm-edit': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/wasm-gen': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/wasm-opt': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/wasm-parser': [ '1.14.1' ],
+450 silly audit   '@webassemblyjs/wast-printer': [ '1.14.1' ],
+450 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+450 silly audit   '@xtuc/long': [ '4.2.2' ],
+450 silly audit   abab: [ '2.0.6' ],
+450 silly audit   accepts: [ '1.3.8' ],
+450 silly audit   negotiator: [ '0.6.3', '0.6.4' ],
+450 silly audit   acorn: [ '8.15.0', '7.4.1' ],
+450 silly audit   'acorn-globals': [ '6.0.0' ],
+450 silly audit   'acorn-import-phases': [ '1.0.4' ],
+450 silly audit   'acorn-jsx': [ '5.3.2' ],
+450 silly audit   'acorn-walk': [ '7.2.0' ],
+450 silly audit   address: [ '1.2.2' ],
+450 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+450 silly audit   'agent-base': [ '6.0.2' ],
+450 silly audit   ajv: [ '6.12.6', '8.17.1' ],
+450 silly audit   'ajv-formats': [ '2.1.1' ],
+450 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+450 silly audit   'ajv-keywords': [ '3.5.2', '5.1.0' ],
+450 silly audit   'ansi-escapes': [ '4.3.2' ],
+450 silly audit   'type-fest': [ '0.21.3', '0.16.0', '0.20.2' ],
+450 silly audit   'ansi-html': [ '0.0.9' ],
+450 silly audit   'ansi-html-community': [ '0.0.8' ],
+450 silly audit   'ansi-regex': [ '5.0.1', '6.2.2' ],
+450 silly audit   'ansi-styles': [ '4.3.0', '3.2.1', '5.2.0' ],
+450 silly audit   'any-promise': [ '1.3.0' ],
+450 silly audit   anymatch: [ '3.1.3' ],
+450 silly audit   arg: [ '5.0.2' ],
+450 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+450 silly audit   'array-flatten': [ '1.1.1' ],
+450 silly audit   'array-includes': [ '3.1.9' ],
+450 silly audit   'array-union': [ '2.1.0' ],
+450 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+450 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+450 silly audit   'array.prototype.flat': [ '1.3.3' ],
+450 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+450 silly audit   'array.prototype.reduce': [ '1.0.8' ],
+450 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+450 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+450 silly audit   asap: [ '2.0.6' ],
+450 silly audit   'ast-types-flow': [ '0.0.8' ],
+450 silly audit   async: [ '3.2.6' ],
+450 silly audit   'async-function': [ '1.0.0' ],
+450 silly audit   asynckit: [ '0.4.0' ],
+450 silly audit   'at-least-node': [ '1.0.0' ],
+450 silly audit   autoprefixer: [ '10.4.23' ],
+450 silly audit   'available-typed-arrays': [ '1.0.7' ],
+450 silly audit   'axe-core': [ '4.11.0' ],
+450 silly audit   axios: [ '1.13.2' ],
+450 silly audit   'form-data': [ '4.0.5', '3.0.4' ],
+450 silly audit   'axobject-query': [ '4.1.0' ],
+450 silly audit   'babel-jest': [ '27.5.1' ],
+450 silly audit   'babel-loader': [ '8.4.1' ],
+450 silly audit   'schema-utils': [ '2.7.1', '3.3.0', '2.7.0', '4.3.3' ],
+450 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+450 silly audit   'babel-plugin-jest-hoist': [ '27.5.1' ],
+450 silly audit   'babel-plugin-macros': [ '3.1.0' ],
+450 silly audit   'babel-plugin-named-asset-import': [ '0.3.8' ],
+450 silly audit   'babel-plugin-polyfill-corejs2': [ '0.4.14' ],
+450 silly audit   'babel-plugin-polyfill-corejs3': [ '0.13.0' ],
+450 silly audit   'babel-plugin-polyfill-regenerator': [ '0.6.5' ],
+450 silly audit   'babel-plugin-transform-react-remove-prop-types': [ '0.4.24' ],
+450 silly audit   'babel-preset-current-node-syntax': [ '1.2.0' ],
+450 silly audit   'babel-preset-jest': [ '27.5.1' ],
+450 silly audit   'babel-preset-react-app': [ '10.1.0' ],
+450 silly audit   'balanced-match': [ '1.0.2' ],
+450 silly audit   'baseline-browser-mapping': [ '2.9.11' ],
+450 silly audit   batch: [ '0.6.1' ],
+450 silly audit   bfj: [ '7.1.0' ],
+450 silly audit   'big.js': [ '5.2.2' ],
+450 silly audit   'binary-extensions': [ '2.3.0' ],
+450 silly audit   bluebird: [ '3.7.2' ],
+450 silly audit   'body-parser': [ '1.20.4' ],
+450 silly audit   debug: [ '2.6.9', '4.4.3', '3.2.7' ],
+450 silly audit   'iconv-lite': [ '0.4.24', '0.6.3' ],
+450 silly audit   ms: [ '2.0.0', '2.1.3' ],
+450 silly audit   'bonjour-service': [ '1.3.0' ],
+450 silly audit   boolbase: [ '1.0.0' ],
+450 silly audit   'brace-expansion': [ '1.1.12', '2.0.2' ],
+450 silly audit   braces: [ '3.0.3' ],
+450 silly audit   'browser-process-hrtime': [ '1.0.0' ],
+450 silly audit   browserslist: [ '4.28.1' ],
+450 silly audit   bser: [ '2.1.1' ],
+450 silly audit   'buffer-from': [ '1.1.2' ],
+450 silly audit   'builtin-modules': [ '3.3.0' ],
+450 silly audit   bytes: [ '3.1.2' ],
+450 silly audit   'call-bind': [ '1.0.8' ],
+450 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+450 silly audit   'call-bound': [ '1.0.4' ],
+450 silly audit   callsites: [ '3.1.0' ],
+450 silly audit   'camel-case': [ '4.1.2' ],
+450 silly audit   'camelcase-css': [ '2.0.1' ],
+450 silly audit   'caniuse-api': [ '3.0.0' ],
+450 silly audit   'caniuse-lite': [ '1.0.30001761' ],
+450 silly audit   'case-sensitive-paths-webpack-plugin': [ '2.4.0' ],
+450 silly audit   chalk: [ '4.1.2', '2.4.2' ],
+450 silly audit   'char-regex': [ '1.0.2', '2.0.2' ],
+450 silly audit   'check-types': [ '11.2.3' ],
+450 silly audit   chokidar: [ '3.6.0' ],
+450 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+450 silly audit   'chrome-trace-event': [ '1.0.4' ],
+450 silly audit   'ci-info': [ '3.9.0' ],
+450 silly audit   'cjs-module-lexer': [ '1.4.3' ],
+450 silly audit   'clean-css': [ '5.3.3' ],
+450 silly audit   cliui: [ '7.0.4' ],
+450 silly audit   co: [ '4.6.0' ],
+450 silly audit   coa: [ '2.0.2' ],
+450 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+450 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+450 silly audit   'escape-string-regexp': [ '1.0.5', '4.0.0', '2.0.0' ],
+450 silly audit   'has-flag': [ '3.0.0', '4.0.0' ],
+450 silly audit   'supports-color': [ '5.5.0', '8.1.1', '7.2.0' ],
+450 silly audit   'collect-v8-coverage': [ '1.0.3' ],
+450 silly audit   colord: [ '2.9.3' ],
+450 silly audit   colorette: [ '2.0.20' ],
+450 silly audit   'combined-stream': [ '1.0.8' ],
+450 silly audit   commander: [ '8.3.0', '7.2.0', '4.1.1', '2.20.3' ],
+450 silly audit   'common-tags': [ '1.8.2' ],
+450 silly audit   commondir: [ '1.0.1' ],
+450 silly audit   compressible: [ '2.0.18' ],
+450 silly audit   compression: [ '1.8.1' ],
+450 silly audit   'concat-map': [ '0.0.1' ],
+450 silly audit   'confusing-browser-globals': [ '1.0.11' ],
+450 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+450 silly audit   'content-disposition': [ '0.5.4' ],
+450 silly audit   'content-type': [ '1.0.5' ],
+450 silly audit   cookie: [ '0.7.2', '1.1.1' ],
+450 silly audit   'cookie-signature': [ '1.0.7' ],
+450 silly audit   'core-js': [ '3.47.0' ],
+450 silly audit   'core-js-compat': [ '3.47.0' ],
+450 silly audit   'core-js-pure': [ '3.47.0' ],
+450 silly audit   'core-util-is': [ '1.0.3' ],
+450 silly audit   cosmiconfig: [ '7.1.0', '6.0.0' ],
+450 silly audit   'cross-spawn': [ '7.0.6' ],
+450 silly audit   'crypto-random-string': [ '2.0.0' ],
+450 silly audit   'css-blank-pseudo': [ '3.0.3' ],
+450 silly audit   'css-declaration-sorter': [ '6.4.1' ],
+450 silly audit   'css-has-pseudo': [ '3.0.4' ],
+450 silly audit   'css-loader': [ '6.11.0' ],
+450 silly audit   'css-minimizer-webpack-plugin': [ '3.4.1' ],
+450 silly audit   'css-prefers-color-scheme': [ '6.0.3' ],
+450 silly audit   'css-select': [ '4.3.0', '2.1.0' ],
+450 silly audit   'css-select-base-adapter': [ '0.1.1' ],
+450 silly audit   'css-tree': [ '1.0.0-alpha.37', '1.1.3' ],
+450 silly audit   'css-what': [ '6.2.2', '3.4.2' ],
+450 silly audit   'css.escape': [ '1.5.1' ],
+450 silly audit   cssdb: [ '7.11.2' ],
+450 silly audit   cssesc: [ '3.0.0' ],
+450 silly audit   cssnano: [ '5.1.15' ],
+450 silly audit   'cssnano-preset-default': [ '5.2.14' ],
+450 silly audit   'cssnano-utils': [ '3.1.0' ],
+450 silly audit   csso: [ '4.2.0' ],
+450 silly audit   'mdn-data': [ '2.0.14', '2.0.4' ],
+450 silly audit   cssom: [ '0.4.4', '0.3.8' ],
+450 silly audit   cssstyle: [ '2.3.0' ],
+450 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+450 silly audit   'data-urls': [ '2.0.0' ],
+450 silly audit   'data-view-buffer': [ '1.0.2' ],
+450 silly audit   'data-view-byte-length': [ '1.0.2' ],
+450 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+450 silly audit   'decimal.js': [ '10.6.0' ],
+450 silly audit   dedent: [ '0.7.0' ],
+450 silly audit   'deep-is': [ '0.1.4' ],
+450 silly audit   deepmerge: [ '4.3.1' ],
+450 silly audit   'default-gateway': [ '6.0.3' ],
+450 silly audit   'define-data-property': [ '1.1.4' ],
+450 silly audit   'define-lazy-prop': [ '2.0.0' ],
+450 silly audit   'define-properties': [ '1.2.1' ],
+450 silly audit   'delayed-stream': [ '1.0.0' ],
+450 silly audit   depd: [ '2.0.0', '1.1.2' ],
+450 silly audit   dequal: [ '2.0.3' ],
+450 silly audit   destroy: [ '1.2.0' ],
+450 silly audit   'detect-newline': [ '3.1.0' ],
+450 silly audit   'detect-node': [ '2.1.0' ],
+450 silly audit   'detect-port-alt': [ '1.1.6' ],
+450 silly audit   didyoumean: [ '1.2.2' ],
+450 silly audit   'diff-sequences': [ '27.5.1' ],
+450 silly audit   'dir-glob': [ '3.0.1' ],
+450 silly audit   dlv: [ '1.1.3' ],
+450 silly audit   'dns-packet': [ '5.6.1' ],
+450 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+450 silly audit   'dom-converter': [ '0.2.0' ],
+450 silly audit   'dom-serializer': [ '1.4.1', '0.2.2' ],
+450 silly audit   domelementtype: [ '2.3.0', '1.3.1' ],
+450 silly audit   domexception: [ '2.0.1' ],
+450 silly audit   'webidl-conversions': [ '5.0.0', '6.1.0', '4.0.2' ],
+450 silly audit   domhandler: [ '4.3.1' ],
+450 silly audit   domutils: [ '2.8.0', '1.7.0' ],
+450 silly audit   'dot-case': [ '3.0.4' ],
+450 silly audit   dotenv: [ '10.0.0' ],
+450 silly audit   'dotenv-expand': [ '5.1.0' ],
+450 silly audit   'dunder-proto': [ '1.0.1' ],
+450 silly audit   duplexer: [ '0.1.2' ],
+450 silly audit   'ee-first': [ '1.1.1' ],
+450 silly audit   ejs: [ '3.1.10' ],
+450 silly audit   'electron-to-chromium': [ '1.5.267' ],
+450 silly audit   emittery: [ '0.8.1', '0.10.2' ],
+450 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+450 silly audit   'emojis-list': [ '3.0.0' ],
+450 silly audit   encodeurl: [ '2.0.0' ],
+450 silly audit   'enhanced-resolve': [ '5.18.4' ],
+450 silly audit   entities: [ '2.2.0' ],
+450 silly audit   'error-ex': [ '1.3.4' ],
+450 silly audit   'error-stack-parser': [ '2.1.4' ],
+450 silly audit   'es-abstract': [ '1.24.1' ],
+450 silly audit   'es-array-method-boxes-properly': [ '1.0.0' ],
+450 silly audit   'es-define-property': [ '1.0.1' ],
+450 silly audit   'es-errors': [ '1.3.0' ],
+450 silly audit   'es-iterator-helpers': [ '1.2.2' ],
+450 silly audit   'es-module-lexer': [ '2.0.0' ],
+450 silly audit   'es-object-atoms': [ '1.1.1' ],
+450 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+450 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+450 silly audit   'es-to-primitive': [ '1.3.0' ],
+450 silly audit   escalade: [ '3.2.0' ],
+450 silly audit   'escape-html': [ '1.0.3' ],
+450 silly audit   escodegen: [ '2.1.0', '1.14.3' ],
+450 silly audit   eslint: [ '8.57.1' ],
+450 silly audit   'eslint-config-react-app': [ '7.0.1' ],
+450 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+450 silly audit   'eslint-module-utils': [ '2.12.1' ],
+450 silly audit   'eslint-plugin-flowtype': [ '8.0.3' ],
+450 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+450 silly audit   'eslint-plugin-jest': [ '25.7.0' ],
+450 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+450 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+450 silly audit   'eslint-plugin-react-hooks': [ '4.6.2' ],
+450 silly audit   resolve: [ '2.0.0-next.5', '1.22.11' ],
+450 silly audit   'eslint-plugin-testing-library': [ '5.11.1' ],
+450 silly audit   'eslint-webpack-plugin': [ '3.2.0' ],
+450 silly audit   'jest-worker': [ '28.1.3', '27.5.1', '26.6.2' ],
+450 silly audit   'find-up': [ '5.0.0', '4.1.0', '3.0.0' ],
+450 silly audit   'locate-path': [ '6.0.0', '5.0.0', '3.0.0' ],
+450 silly audit   'p-limit': [ '3.1.0', '2.3.0' ],
+450 silly audit   'p-locate': [ '5.0.0', '4.1.0', '3.0.0' ],
+450 silly audit   espree: [ '9.6.1' ],
+450 silly audit   esprima: [ '4.0.1', '1.2.2' ],
+450 silly audit   esquery: [ '1.6.0' ],
+450 silly audit   esrecurse: [ '4.3.0' ],
+450 silly audit   'estree-walker': [ '1.0.1' ],
+450 silly audit   esutils: [ '2.0.3' ],
+450 silly audit   etag: [ '1.8.1' ],
+450 silly audit   eventemitter3: [ '4.0.7' ],
+450 silly audit   events: [ '3.3.0' ],
+450 silly audit   execa: [ '5.1.1' ],
+450 silly audit   exit: [ '0.1.2' ],
+450 silly audit   expect: [ '27.5.1' ],
+450 silly audit   express: [ '4.22.1' ],
+450 silly audit   'fast-deep-equal': [ '3.1.3' ],
+450 silly audit   'fast-glob': [ '3.3.3' ],
+450 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+450 silly audit   'fast-levenshtein': [ '2.0.6' ],
+450 silly audit   'fast-uri': [ '3.1.0' ],
+450 silly audit   fastq: [ '1.19.1' ],
+450 silly audit   'faye-websocket': [ '0.11.4' ],
+450 silly audit   'fb-watchman': [ '2.0.2' ],
+450 silly audit   'file-entry-cache': [ '6.0.1' ],
+450 silly audit   'file-loader': [ '6.2.0' ],
+450 silly audit   filelist: [ '1.0.4' ],
+450 silly audit   minimatch: [ '5.1.6', '3.1.2' ],
+450 silly audit   filesize: [ '8.0.7' ],
+450 silly audit   'fill-range': [ '7.1.1' ],
+450 silly audit   finalhandler: [ '1.3.2' ],
+450 silly audit   'find-cache-dir': [ '3.3.2' ],
+450 silly audit   'flat-cache': [ '3.2.0' ],
+450 silly audit   flatted: [ '3.3.3' ],
+450 silly audit   'follow-redirects': [ '1.15.11' ],
+450 silly audit   'for-each': [ '0.3.5' ],
+450 silly audit   'fork-ts-checker-webpack-plugin': [ '6.5.3' ],
+450 silly audit   'fs-extra': [ '9.1.0', '10.1.0' ],
+450 silly audit   tapable: [ '1.1.3', '2.3.0' ],
+450 silly audit   forwarded: [ '0.2.0' ],
+450 silly audit   'fraction.js': [ '5.3.4' ],
+450 silly audit   fresh: [ '0.5.2' ],
+450 silly audit   'fs-monkey': [ '1.1.0' ],
+450 silly audit   'fs.realpath': [ '1.0.0' ],
+450 silly audit   fsevents: [ '2.3.3' ],
+450 silly audit   'function-bind': [ '1.1.2' ],
+450 silly audit   'function.prototype.name': [ '1.1.8' ],
+450 silly audit   'functions-have-names': [ '1.2.3' ],
+450 silly audit   'generator-function': [ '2.0.1' ],
+450 silly audit   gensync: [ '1.0.0-beta.2' ],
+450 silly audit   'get-caller-file': [ '2.0.5' ],
+450 silly audit   'get-intrinsic': [ '1.3.0' ],
+450 silly audit   'get-own-enumerable-property-symbols': [ '3.0.2' ],
+450 silly audit   'get-package-type': [ '0.1.0' ],
+450 silly audit   'get-proto': [ '1.0.1' ],
+450 silly audit   'get-stream': [ '6.0.1' ],
+450 silly audit   'get-symbol-description': [ '1.1.0' ],
+450 silly audit   glob: [ '7.2.3' ],
+450 silly audit   'glob-to-regexp': [ '0.4.1' ],
+450 silly audit   'global-modules': [ '2.0.0' ],
+450 silly audit   'global-prefix': [ '3.0.0' ],
+450 silly audit   which: [ '1.3.1', '2.0.2' ],
+450 silly audit   globals: [ '13.24.0' ],
+450 silly audit   globalthis: [ '1.0.4' ],
+450 silly audit   globby: [ '11.1.0' ],
+450 silly audit   gopd: [ '1.2.0' ],
+450 silly audit   'graceful-fs': [ '4.2.11' ],
+450 silly audit   graphemer: [ '1.4.0' ],
+450 silly audit   'gzip-size': [ '6.0.0' ],
+450 silly audit   'handle-thing': [ '2.0.1' ],
+450 silly audit   'harmony-reflect': [ '1.6.2' ],
+450 silly audit   'has-bigints': [ '1.1.0' ],
+450 silly audit   'has-property-descriptors': [ '1.0.2' ],
+450 silly audit   'has-proto': [ '1.2.0' ],
+450 silly audit   'has-symbols': [ '1.1.0' ],
+450 silly audit   'has-tostringtag': [ '1.0.2' ],
+450 silly audit   hasown: [ '2.0.2' ],
+450 silly audit   he: [ '1.2.0' ],
+450 silly audit   hoopy: [ '0.1.4' ],
+450 silly audit   'hpack.js': [ '2.1.6' ],
+450 silly audit   isarray: [ '1.0.0', '2.0.5' ],
+450 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+450 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+450 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+450 silly audit   'html-encoding-sniffer': [ '2.0.1' ],
+450 silly audit   'html-entities': [ '2.6.0' ],
+450 silly audit   'html-escaper': [ '2.0.2' ],
+450 silly audit   'html-minifier-terser': [ '6.1.0' ],
+450 silly audit   'html-webpack-plugin': [ '5.6.5' ],
+450 silly audit   htmlparser2: [ '6.1.0' ],
+450 silly audit   'http-deceiver': [ '1.2.7' ],
+450 silly audit   'http-errors': [ '2.0.1', '1.6.3' ],
+450 silly audit   'http-parser-js': [ '0.5.10' ],
+450 silly audit   'http-proxy': [ '1.18.1' ],
+450 silly audit   'http-proxy-agent': [ '4.0.1' ],
+450 silly audit   'http-proxy-middleware': [ '2.0.9' ],
+450 silly audit   'https-proxy-agent': [ '5.0.1' ],
+450 silly audit   'human-signals': [ '2.1.0' ],
+450 silly audit   'icss-utils': [ '5.1.0' ],
+450 silly audit   idb: [ '7.1.1' ],
+450 silly audit   'identity-obj-proxy': [ '3.0.0' ],
+450 silly audit   ignore: [ '5.3.2' ],
+450 silly audit   immer: [ '9.0.21' ],
+450 silly audit   'import-fresh': [ '3.3.1' ],
+450 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+450 silly audit   'import-local': [ '3.2.0' ],
+450 silly audit   imurmurhash: [ '0.1.4' ],
+450 silly audit   'indent-string': [ '4.0.0' ],
+450 silly audit   inflight: [ '1.0.6' ],
+450 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+450 silly audit   ini: [ '1.3.8' ],
+450 silly audit   'internal-slot': [ '1.1.0' ],
+450 silly audit   'ipaddr.js': [ '2.3.0', '1.9.1' ],
+450 silly audit   'is-array-buffer': [ '3.0.5' ],
+450 silly audit   'is-arrayish': [ '0.2.1' ],
+450 silly audit   'is-async-function': [ '2.1.1' ],
+450 silly audit   'is-bigint': [ '1.1.0' ],
+450 silly audit   'is-binary-path': [ '2.1.0' ],
+450 silly audit   'is-boolean-object': [ '1.2.2' ],
+450 silly audit   'is-callable': [ '1.2.7' ],
+450 silly audit   'is-core-module': [ '2.16.1' ],
+450 silly audit   'is-data-view': [ '1.0.2' ],
+450 silly audit   'is-date-object': [ '1.1.0' ],
+450 silly audit   'is-docker': [ '2.2.1' ],
+450 silly audit   'is-extglob': [ '2.1.1' ],
+450 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+450 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+450 silly audit   'is-generator-fn': [ '2.1.0' ],
+450 silly audit   'is-generator-function': [ '1.1.2' ],
+450 silly audit   'is-glob': [ '4.0.3' ],
+450 silly audit   'is-map': [ '2.0.3' ],
+450 silly audit   'is-module': [ '1.0.0' ],
+450 silly audit   'is-negative-zero': [ '2.0.3' ],
+450 silly audit   'is-number': [ '7.0.0' ],
+450 silly audit   'is-number-object': [ '1.1.1' ],
+450 silly audit   'is-obj': [ '1.0.1' ],
+450 silly audit   'is-path-inside': [ '3.0.3' ],
+450 silly audit   'is-plain-obj': [ '3.0.0' ],
+450 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+450 silly audit   'is-regex': [ '1.2.1' ],
+450 silly audit   'is-regexp': [ '1.0.0' ],
+450 silly audit   'is-root': [ '2.1.0' ],
+450 silly audit   'is-set': [ '2.0.3' ],
+450 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+450 silly audit   'is-stream': [ '2.0.1' ],
+450 silly audit   'is-string': [ '1.1.1' ],
+450 silly audit   'is-symbol': [ '1.1.1' ],
+450 silly audit   'is-typed-array': [ '1.1.15' ],
+450 silly audit   'is-typedarray': [ '1.0.0' ],
+450 silly audit   'is-weakmap': [ '2.0.2' ],
+450 silly audit   'is-weakref': [ '1.1.1' ],
+450 silly audit   'is-weakset': [ '2.0.4' ],
+450 silly audit   'is-wsl': [ '2.2.0' ],
+450 silly audit   isexe: [ '2.0.0' ],
+450 silly audit   'istanbul-lib-coverage': [ '3.2.2' ],
+450 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+450 silly audit   'istanbul-lib-report': [ '3.0.1' ],
+450 silly audit   'make-dir': [ '4.0.0', '3.1.0' ],
+450 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+450 silly audit   'istanbul-reports': [ '3.2.0' ],
+450 silly audit   'iterator.prototype': [ '1.1.5' ],
+450 silly audit   jake: [ '10.9.4' ],
+450 silly audit   jest: [ '27.5.1' ],
+450 silly audit   'jest-changed-files': [ '27.5.1' ],
+450 silly audit   'jest-circus': [ '27.5.1' ],
+450 silly audit   'jest-cli': [ '27.5.1' ],
+450 silly audit   'jest-config': [ '27.5.1' ],
+450 silly audit   'jest-diff': [ '27.5.1' ],
+450 silly audit   'jest-docblock': [ '27.5.1' ],
+450 silly audit   'jest-each': [ '27.5.1' ],
+450 silly audit   'jest-environment-jsdom': [ '27.5.1' ],
+450 silly audit   'jest-environment-node': [ '27.5.1' ],
+450 silly audit   'jest-get-type': [ '27.5.1' ],
+450 silly audit   'jest-haste-map': [ '27.5.1' ],
+450 silly audit   'jest-jasmine2': [ '27.5.1' ],
+450 silly audit   'jest-leak-detector': [ '27.5.1' ],
+450 silly audit   'jest-matcher-utils': [ '27.5.1' ],
+450 silly audit   'jest-message-util': [ '27.5.1', '28.1.3' ],
+450 silly audit   'jest-mock': [ '27.5.1' ],
+450 silly audit   'jest-pnp-resolver': [ '1.2.3' ],
+450 silly audit   'jest-regex-util': [ '27.5.1', '28.0.2' ],
+450 silly audit   'jest-resolve': [ '27.5.1' ],
+450 silly audit   'jest-resolve-dependencies': [ '27.5.1' ],
+450 silly audit   'jest-runner': [ '27.5.1' ],
+450 silly audit   'jest-runtime': [ '27.5.1' ],
+450 silly audit   'jest-serializer': [ '27.5.1' ],
+450 silly audit   'jest-snapshot': [ '27.5.1' ],
+450 silly audit   'jest-util': [ '27.5.1', '28.1.3' ],
+450 silly audit   'jest-validate': [ '27.5.1' ],
+450 silly audit   'jest-watch-typeahead': [ '1.1.0' ],
+450 silly audit   slash: [ '3.0.0', '4.0.0' ],
+450 silly audit   'jest-watcher': [ '28.1.3', '27.5.1' ],
+450 silly audit   'string-length': [ '4.0.2', '5.0.1' ],
+450 silly audit   'strip-ansi': [ '6.0.1', '7.1.2' ],
+450 silly audit   'pretty-format': [ '28.1.3', '27.5.1' ],
+450 silly audit   'react-is': [ '18.3.1', '16.13.1', '17.0.2' ],
+450 silly audit   jiti: [ '1.21.7' ],
+450 silly audit   'js-tokens': [ '4.0.0' ],
+450 silly audit   jsdom: [ '16.7.0' ],
+450 silly audit   jsesc: [ '3.1.0' ],
+450 silly audit   'json-buffer': [ '3.0.1' ],
+450 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+450 silly audit   'json-schema': [ '0.4.0' ],
+450 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+450 silly audit   json5: [ '2.2.3', '1.0.2' ],
+450 silly audit   jsonfile: [ '6.2.0' ],
+450 silly audit   jsonpath: [ '1.1.1' ],
+450 silly audit   jsonpointer: [ '5.0.1' ],
+450 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+450 silly audit   keyv: [ '4.5.4' ],
+450 silly audit   'kind-of': [ '6.0.3' ],
+450 silly audit   kleur: [ '3.0.3' ],
+450 silly audit   klona: [ '2.0.6' ],
+450 silly audit   'language-subtag-registry': [ '0.3.23' ],
+450 silly audit   'language-tags': [ '1.0.9' ],
+450 silly audit   'launch-editor': [ '2.12.0' ],
+450 silly audit   leven: [ '3.1.0' ],
+450 silly audit   levn: [ '0.4.1', '0.3.0' ],
+450 silly audit   lilconfig: [ '2.1.0', '3.1.3' ],
+450 silly audit   'lines-and-columns': [ '1.2.4' ],
+450 silly audit   'loader-runner': [ '4.3.1' ],
+450 silly audit   'loader-utils': [ '2.0.4', '3.3.1' ],
+450 silly audit   lodash: [ '4.17.21' ],
+450 silly audit   'lodash.debounce': [ '4.0.8' ],
+450 silly audit   'lodash.memoize': [ '4.1.2' ],
+450 silly audit   'lodash.merge': [ '4.6.2' ],
+450 silly audit   'lodash.sortby': [ '4.7.0' ],
+450 silly audit   'lodash.uniq': [ '4.5.0' ],
+450 silly audit   'loose-envify': [ '1.4.0' ],
+450 silly audit   'lower-case': [ '2.0.2' ],
+450 silly audit   'lru-cache': [ '5.1.1' ],
+450 silly audit   'lz-string': [ '1.5.0' ],
+450 silly audit   'magic-string': [ '0.25.9' ],
+450 silly audit   makeerror: [ '1.0.12' ],
+450 silly audit   'math-intrinsics': [ '1.1.0' ],
+450 silly audit   'media-typer': [ '0.3.0' ],
+450 silly audit   memfs: [ '3.5.3' ],
+450 silly audit   'merge-descriptors': [ '1.0.3' ],
+450 silly audit   'merge-stream': [ '2.0.0' ],
+450 silly audit   merge2: [ '1.4.1' ],
+450 silly audit   methods: [ '1.1.2' ],
+450 silly audit   micromatch: [ '4.0.8' ],
+450 silly audit   mime: [ '1.6.0' ],
+450 silly audit   'mime-db': [ '1.52.0' ],
+450 silly audit   'mime-types': [ '2.1.35' ],
+450 silly audit   'mimic-fn': [ '2.1.0' ],
+450 silly audit   'min-indent': [ '1.0.1' ],
+450 silly audit   'mini-css-extract-plugin': [ '2.9.4' ],
+450 silly audit   'minimalistic-assert': [ '1.0.1' ],
+450 silly audit   minimist: [ '1.2.8' ],
+450 silly audit   mkdirp: [ '0.5.6' ],
+450 silly audit   'multicast-dns': [ '7.2.5' ],
+450 silly audit   mz: [ '2.7.0' ],
+450 silly audit   nanoid: [ '3.3.11' ],
+450 silly audit   'natural-compare': [ '1.4.0' ],
+450 silly audit   'natural-compare-lite': [ '1.4.0' ],
+450 silly audit   'neo-async': [ '2.6.2' ],
+450 silly audit   'no-case': [ '3.0.4' ],
+450 silly audit   'node-forge': [ '1.3.3' ],
+450 silly audit   'node-int64': [ '0.4.0' ],
+450 silly audit   'node-releases': [ '2.0.27' ],
+450 silly audit   'normalize-path': [ '3.0.0' ],
+450 silly audit   'normalize-url': [ '6.1.0' ],
+450 silly audit   'npm-run-path': [ '4.0.1' ],
+450 silly audit   'nth-check': [ '2.1.1', '1.0.2' ],
+450 silly audit   nwsapi: [ '2.2.23' ],
+450 silly audit   'object-assign': [ '4.1.1' ],
+450 silly audit   'object-hash': [ '3.0.0' ],
+450 silly audit   'object-inspect': [ '1.13.4' ],
+450 silly audit   'object-keys': [ '1.1.1' ],
+450 silly audit   'object.assign': [ '4.1.7' ],
+450 silly audit   'object.entries': [ '1.1.9' ],
+450 silly audit   'object.fromentries': [ '2.0.8' ],
+450 silly audit   'object.getownpropertydescriptors': [ '2.1.9' ],
+450 silly audit   'object.groupby': [ '1.0.3' ],
+450 silly audit   'object.values': [ '1.2.1' ],
+450 silly audit   obuf: [ '1.1.2' ],
+450 silly audit   'on-finished': [ '2.4.1' ],
+450 silly audit   'on-headers': [ '1.1.0' ],
+450 silly audit   once: [ '1.4.0' ],
+450 silly audit   onetime: [ '5.1.2' ],
+450 silly audit   open: [ '8.4.2' ],
+450 silly audit   optionator: [ '0.9.4', '0.8.3' ],
+450 silly audit   'own-keys': [ '1.0.1' ],
+450 silly audit   'p-retry': [ '4.6.2' ],
+450 silly audit   'p-try': [ '2.2.0' ],
+450 silly audit   'param-case': [ '3.0.4' ],
+450 silly audit   'parent-module': [ '1.0.1' ],
+450 silly audit   'parse-json': [ '5.2.0' ],
+450 silly audit   parse5: [ '6.0.1' ],
+450 silly audit   parseurl: [ '1.3.3' ],
+450 silly audit   'pascal-case': [ '3.1.2' ],
+450 silly audit   'path-exists': [ '4.0.0', '3.0.0' ],
+450 silly audit   'path-is-absolute': [ '1.0.1' ],
+450 silly audit   'path-key': [ '3.1.1' ],
+450 silly audit   'path-parse': [ '1.0.7' ],
+450 silly audit   'path-to-regexp': [ '0.1.12' ],
+450 silly audit   'path-type': [ '4.0.0' ],
+450 silly audit   'performance-now': [ '2.1.0' ],
+450 silly audit   picocolors: [ '1.1.1', '0.2.1' ],
+450 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+450 silly audit   pify: [ '2.3.0' ],
+450 silly audit   pirates: [ '4.0.7' ],
+450 silly audit   'pkg-dir': [ '4.2.0' ],
+450 silly audit   'pkg-up': [ '3.1.0' ],
+450 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+450 silly audit   postcss: [ '8.5.6', '7.0.39' ],
+450 silly audit   'postcss-attribute-case-insensitive': [ '5.0.2' ],
+450 silly audit   'postcss-browser-comments': [ '4.0.0' ],
+450 silly audit   'postcss-calc': [ '8.2.4' ],
+450 silly audit   'postcss-clamp': [ '4.1.0' ],
+450 silly audit   'postcss-color-functional-notation': [ '4.2.4' ],
+450 silly audit   'postcss-color-hex-alpha': [ '8.0.4' ],
+450 silly audit   'postcss-color-rebeccapurple': [ '7.1.1' ],
+450 silly audit   'postcss-colormin': [ '5.3.1' ],
+450 silly audit   'postcss-convert-values': [ '5.1.3' ],
+450 silly audit   'postcss-custom-media': [ '8.0.2' ],
+450 silly audit   'postcss-custom-properties': [ '12.1.11' ],
+450 silly audit   'postcss-custom-selectors': [ '6.0.3' ],
+450 silly audit   'postcss-dir-pseudo-class': [ '6.0.5' ],
+450 silly audit   'postcss-discard-comments': [ '5.1.2' ],
+450 silly audit   'postcss-discard-duplicates': [ '5.1.0' ],
+450 silly audit   'postcss-discard-empty': [ '5.1.1' ],
+450 silly audit   'postcss-discard-overridden': [ '5.1.0' ],
+450 silly audit   'postcss-double-position-gradients': [ '3.1.2' ],
+450 silly audit   'postcss-env-function': [ '4.0.6' ],
+450 silly audit   'postcss-flexbugs-fixes': [ '5.0.2' ],
+450 silly audit   'postcss-focus-visible': [ '6.0.4' ],
+450 silly audit   'postcss-focus-within': [ '5.0.4' ],
+450 silly audit   'postcss-font-variant': [ '5.0.0' ],
+450 silly audit   'postcss-gap-properties': [ '3.0.5' ],
+450 silly audit   'postcss-image-set-function': [ '4.0.7' ],
+450 silly audit   'postcss-import': [ '15.1.0' ],
+450 silly audit   'postcss-initial': [ '4.0.1' ],
+450 silly audit   'postcss-js': [ '4.1.0' ],
+450 silly audit   'postcss-lab-function': [ '4.2.1' ],
+450 silly audit   'postcss-loader': [ '6.2.1' ],
+450 silly audit   'postcss-logical': [ '5.0.4' ],
+450 silly audit   'postcss-media-minmax': [ '5.0.0' ],
+450 silly audit   'postcss-merge-longhand': [ '5.1.7' ],
+450 silly audit   'postcss-merge-rules': [ '5.1.4' ],
+450 silly audit   'postcss-minify-font-values': [ '5.1.0' ],
+450 silly audit   'postcss-minify-gradients': [ '5.1.1' ],
+450 silly audit   'postcss-minify-params': [ '5.1.4' ],
+450 silly audit   'postcss-minify-selectors': [ '5.2.1' ],
+450 silly audit   'postcss-modules-extract-imports': [ '3.1.0' ],
+450 silly audit   'postcss-modules-local-by-default': [ '4.2.0' ],
+450 silly audit   'postcss-selector-parser': [ '7.1.1', '6.1.2' ],
+450 silly audit   'postcss-modules-scope': [ '3.2.1' ],
+450 silly audit   'postcss-modules-values': [ '4.0.0' ],
+450 silly audit   'postcss-nested': [ '6.2.0' ],
+450 silly audit   'postcss-nesting': [ '10.2.0' ],
+450 silly audit   'postcss-normalize': [ '10.0.1' ],
+450 silly audit   'postcss-normalize-charset': [ '5.1.0' ],
+450 silly audit   'postcss-normalize-display-values': [ '5.1.0' ],
+450 silly audit   'postcss-normalize-positions': [ '5.1.1' ],
+450 silly audit   'postcss-normalize-repeat-style': [ '5.1.1' ],
+450 silly audit   'postcss-normalize-string': [ '5.1.0' ],
+450 silly audit   'postcss-normalize-timing-functions': [ '5.1.0' ],
+450 silly audit   'postcss-normalize-unicode': [ '5.1.1' ],
+450 silly audit   'postcss-normalize-url': [ '5.1.0' ],
+450 silly audit   'postcss-normalize-whitespace': [ '5.1.1' ],
+450 silly audit   'postcss-opacity-percentage': [ '1.1.3' ],
+450 silly audit   'postcss-ordered-values': [ '5.1.3' ],
+450 silly audit   'postcss-overflow-shorthand': [ '3.0.4' ],
+450 silly audit   'postcss-page-break': [ '3.0.4' ],
+450 silly audit   'postcss-place': [ '7.0.5' ],
+450 silly audit   'postcss-preset-env': [ '7.8.3' ],
+450 silly audit   'postcss-pseudo-class-any-link': [ '7.1.6' ],
+450 silly audit   'postcss-reduce-initial': [ '5.1.2' ],
+450 silly audit   'postcss-reduce-transforms': [ '5.1.0' ],
+450 silly audit   'postcss-replace-overflow-wrap': [ '4.0.0' ],
+450 silly audit   'postcss-selector-not': [ '6.0.1' ],
+450 silly audit   'postcss-svgo': [ '5.1.0' ],
+450 silly audit   svgo: [ '2.8.0', '1.3.2' ],
+450 silly audit   'postcss-unique-selectors': [ '5.1.1' ],
+450 silly audit   'postcss-value-parser': [ '4.2.0' ],
+450 silly audit   'prelude-ls': [ '1.2.1', '1.1.2' ],
+450 silly audit   'pretty-bytes': [ '5.6.0' ],
+450 silly audit   'pretty-error': [ '4.0.0' ],
+450 silly audit   'process-nextick-args': [ '2.0.1' ],
+450 silly audit   promise: [ '8.3.0' ],
+450 silly audit   prompts: [ '2.4.2' ],
+450 silly audit   'prop-types': [ '15.8.1' ],
+450 silly audit   'proxy-addr': [ '2.0.7' ],
+450 silly audit   'proxy-from-env': [ '1.1.0' ],
+450 silly audit   psl: [ '1.15.0' ],
+450 silly audit   punycode: [ '2.3.1' ],
+450 silly audit   q: [ '1.5.1' ],
+450 silly audit   qs: [ '6.14.0' ],
+450 silly audit   querystringify: [ '2.2.0' ],
+450 silly audit   'queue-microtask': [ '1.2.3' ],
+450 silly audit   raf: [ '3.4.1' ],
+450 silly audit   randombytes: [ '2.1.0' ],
+450 silly audit   'range-parser': [ '1.2.1' ],
+450 silly audit   'raw-body': [ '2.5.3' ],
+450 silly audit   react: [ '19.2.3' ],
+450 silly audit   'react-app-polyfill': [ '3.0.0' ],
+450 silly audit   'react-dev-utils': [ '12.0.1' ],
+450 silly audit   'react-dom': [ '19.2.3' ],
+450 silly audit   'react-error-overlay': [ '6.1.0' ],
+450 silly audit   'react-refresh': [ '0.11.0' ],
+450 silly audit   'react-router': [ '7.11.0' ],
+450 silly audit   'react-router-dom': [ '7.11.0' ],
+450 silly audit   'react-scripts': [ '5.0.1' ],
+450 silly audit   'read-cache': [ '1.0.0' ],
+450 silly audit   readdirp: [ '3.6.0' ],
+450 silly audit   'recursive-readdir': [ '2.2.3' ],
+450 silly audit   redent: [ '3.0.0' ],
+450 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+450 silly audit   regenerate: [ '1.4.2' ],
+450 silly audit   'regenerate-unicode-properties': [ '10.2.2' ],
+450 silly audit   'regenerator-runtime': [ '0.13.11' ],
+450 silly audit   'regex-parser': [ '2.3.1' ],
+450 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+450 silly audit   'regexpu-core': [ '6.4.0' ],
+450 silly audit   regjsgen: [ '0.8.0' ],
+450 silly audit   regjsparser: [ '0.13.0' ],
+450 silly audit   relateurl: [ '0.2.7' ],
+450 silly audit   renderkid: [ '3.0.0' ],
+450 silly audit   'require-directory': [ '2.1.1' ],
+450 silly audit   'require-from-string': [ '2.0.2' ],
+450 silly audit   'requires-port': [ '1.0.0' ],
+450 silly audit   'resolve-cwd': [ '3.0.0' ],
+450 silly audit   'resolve-url-loader': [ '4.0.0' ],
+450 silly audit   'resolve.exports': [ '1.1.1' ],
+450 silly audit   retry: [ '0.13.1' ],
+450 silly audit   reusify: [ '1.1.0' ],
+450 silly audit   rimraf: [ '3.0.2' ],
+450 silly audit   rollup: [ '2.79.2' ],
+450 silly audit   'rollup-plugin-terser': [ '7.0.2' ],
+450 silly audit   'serialize-javascript': [ '4.0.0', '6.0.2' ],
+450 silly audit   'run-parallel': [ '1.2.0' ],
+450 silly audit   'safe-array-concat': [ '1.1.3' ],
+450 silly audit   'safe-push-apply': [ '1.0.0' ],
+450 silly audit   'safe-regex-test': [ '1.1.0' ],
+450 silly audit   'safer-buffer': [ '2.1.2' ],
+450 silly audit   'sanitize.css': [ '13.0.0' ],
+450 silly audit   'sass-loader': [ '12.6.0' ],
+450 silly audit   sax: [ '1.2.4' ],
+450 silly audit   saxes: [ '5.0.1' ],
+450 silly audit   scheduler: [ '0.27.0' ],
+450 silly audit   'select-hose': [ '2.0.0' ],
+450 silly audit   selfsigned: [ '2.4.1' ],
+450 silly audit   send: [ '0.19.2' ],
+450 silly audit   'serve-index': [ '1.9.1' ],
+450 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+450 silly audit   statuses: [ '1.5.0', '2.0.2' ],
+450 silly audit   'serve-static': [ '1.16.3' ],
+450 silly audit   'set-cookie-parser': [ '2.7.2' ],
+450 silly audit   'set-function-length': [ '1.2.2' ],
+450 silly audit   'set-function-name': [ '2.0.2' ],
+450 silly audit   'set-proto': [ '1.0.0' ],
+450 silly audit   'shebang-command': [ '2.0.0' ],
+450 silly audit   'shebang-regex': [ '3.0.0' ],
+450 silly audit   'shell-quote': [ '1.8.3' ],
+450 silly audit   'side-channel': [ '1.1.0' ],
+450 silly audit   'side-channel-list': [ '1.0.0' ],
+450 silly audit   'side-channel-map': [ '1.0.1' ],
+450 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+450 silly audit   'signal-exit': [ '3.0.7' ],
+450 silly audit   sisteransi: [ '1.0.5' ],
+450 silly audit   sockjs: [ '0.3.24' ],
+450 silly audit   'source-list-map': [ '2.0.1' ],
+450 silly audit   'source-map-js': [ '1.2.1' ],
+450 silly audit   'source-map-loader': [ '3.0.2' ],
+450 silly audit   'source-map-support': [ '0.5.21' ],
+450 silly audit   'sourcemap-codec': [ '1.4.8' ],
+450 silly audit   spdy: [ '4.0.2' ],
+450 silly audit   'spdy-transport': [ '3.0.0' ],
+450 silly audit   'sprintf-js': [ '1.0.3' ],
+450 silly audit   stable: [ '0.1.8' ],
+450 silly audit   'stack-utils': [ '2.0.6' ],
+450 silly audit   stackframe: [ '1.3.4' ],
+450 silly audit   'static-eval': [ '2.0.2' ],
+450 silly audit   'type-check': [ '0.3.2', '0.4.0' ],
+450 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+450 silly audit   'string-natural-compare': [ '3.0.1' ],
+450 silly audit   'string-width': [ '4.2.3' ],
+450 silly audit   'string.prototype.includes': [ '2.0.1' ],
+450 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+450 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+450 silly audit   'string.prototype.trim': [ '1.2.10' ],
+450 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+450 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+450 silly audit   'stringify-object': [ '3.3.0' ],
+450 silly audit   'strip-bom': [ '4.0.0', '3.0.0' ],
+450 silly audit   'strip-comments': [ '2.0.1' ],
+450 silly audit   'strip-final-newline': [ '2.0.0' ],
+450 silly audit   'strip-indent': [ '3.0.0' ],
+450 silly audit   'strip-json-comments': [ '3.1.1' ],
+450 silly audit   'style-loader': [ '3.3.4' ],
+450 silly audit   stylehacks: [ '5.1.1' ],
+450 silly audit   sucrase: [ '3.35.1' ],
+450 silly audit   'supports-hyperlinks': [ '2.3.0' ],
+450 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+450 silly audit   'svg-parser': [ '2.0.4' ],
+450 silly audit   'symbol-tree': [ '3.2.4' ],
+450 silly audit   tailwindcss: [ '3.4.19' ],
+450 silly audit   'postcss-load-config': [ '6.0.1' ],
+450 silly audit   'temp-dir': [ '2.0.0' ],
+450 silly audit   tempy: [ '0.6.0' ],
+450 silly audit   'terminal-link': [ '2.1.1' ],
+450 silly audit   terser: [ '5.44.1' ],
+450 silly audit   'terser-webpack-plugin': [ '5.3.16' ],
+450 silly audit   'test-exclude': [ '6.0.0' ],
+450 silly audit   'text-table': [ '0.2.0' ],
+450 silly audit   thenify: [ '3.3.1' ],
+450 silly audit   'thenify-all': [ '1.6.0' ],
+450 silly audit   throat: [ '6.0.2' ],
+450 silly audit   thunky: [ '1.1.0' ],
+450 silly audit   tinyglobby: [ '0.2.15' ],
+450 silly audit   fdir: [ '6.5.0' ],
+450 silly audit   tmpl: [ '1.0.5' ],
+450 silly audit   'to-regex-range': [ '5.0.1' ],
+450 silly audit   toidentifier: [ '1.0.1' ],
+450 silly audit   'tough-cookie': [ '4.1.4' ],
+450 silly audit   universalify: [ '0.2.0', '2.0.1' ],
+450 silly audit   tr46: [ '2.1.0', '1.0.1' ],
+450 silly audit   tryer: [ '1.0.1' ],
+450 silly audit   'ts-interface-checker': [ '0.1.13' ],
+450 silly audit   'tsconfig-paths': [ '3.15.0' ],
+450 silly audit   tslib: [ '2.8.1', '1.14.1' ],
+450 silly audit   tsutils: [ '3.21.0' ],
+450 silly audit   'type-detect': [ '4.0.8' ],
+450 silly audit   'type-is': [ '1.6.18' ],
+450 silly audit   'typed-array-buffer': [ '1.0.3' ],
+450 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+450 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+450 silly audit   'typed-array-length': [ '1.0.7' ],
+450 silly audit   'typedarray-to-buffer': [ '3.1.5' ],
+450 silly audit   typescript: [ '4.9.5' ],
+450 silly audit   'unbox-primitive': [ '1.1.0' ],
+450 silly audit   underscore: [ '1.12.1' ],
+450 silly audit   'undici-types': [ '7.16.0' ],
+450 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.1' ],
+450 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+450 silly audit   'unicode-match-property-value-ecmascript': [ '2.2.1' ],
+450 silly audit   'unicode-property-aliases-ecmascript': [ '2.2.0' ],
+450 silly audit   'unique-string': [ '2.0.0' ],
+450 silly audit   unpipe: [ '1.0.0' ],
+450 silly audit   unquote: [ '1.1.1' ],
+450 silly audit   upath: [ '1.2.0' ],
+450 silly audit   'update-browserslist-db': [ '1.2.3' ],
+450 silly audit   'uri-js': [ '4.4.1' ],
+450 silly audit   'url-parse': [ '1.5.10' ],
+450 silly audit   'util-deprecate': [ '1.0.2' ],
+450 silly audit   'util.promisify': [ '1.0.1' ],
+450 silly audit   utila: [ '0.4.0' ],
+450 silly audit   'utils-merge': [ '1.0.1' ],
+450 silly audit   uuid: [ '8.3.2' ],
+450 silly audit   'v8-to-istanbul': [ '8.1.1' ],
+450 silly audit   vary: [ '1.1.2' ],
+450 silly audit   'w3c-hr-time': [ '1.0.2' ],
+450 silly audit   'w3c-xmlserializer': [ '2.0.0' ],
+450 silly audit   walker: [ '1.0.8' ],
+450 silly audit   watchpack: [ '2.4.4' ],
+450 silly audit   wbuf: [ '1.7.3' ],
+450 silly audit   'web-vitals': [ '2.1.4' ],
+450 silly audit   webpack: [ '5.104.1' ],
+450 silly audit   'webpack-dev-middleware': [ '5.3.4' ],
+450 silly audit   'webpack-dev-server': [ '4.15.2' ],
+450 silly audit   ws: [ '8.18.3', '7.5.10' ],
+450 silly audit   'webpack-manifest-plugin': [ '4.1.1' ],
+450 silly audit   'webpack-sources': [ '2.3.1', '3.3.3', '1.4.3' ],
+450 silly audit   'websocket-driver': [ '0.7.4' ],
+450 silly audit   'websocket-extensions': [ '0.1.4' ],
+450 silly audit   'whatwg-encoding': [ '1.0.5' ],
+450 silly audit   'whatwg-fetch': [ '3.6.20' ],
+450 silly audit   'whatwg-mimetype': [ '2.3.0' ],
+450 silly audit   'whatwg-url': [ '8.7.0', '7.1.0' ],
+450 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+450 silly audit   'which-builtin-type': [ '1.2.1' ],
+450 silly audit   'which-collection': [ '1.0.2' ],
+450 silly audit   'which-typed-array': [ '1.1.19' ],
+450 silly audit   'word-wrap': [ '1.2.5' ],
+450 silly audit   'workbox-background-sync': [ '6.6.0' ],
+450 silly audit   'workbox-broadcast-update': [ '6.6.0' ],
+450 silly audit   'workbox-build': [ '6.6.0' ],
+450 silly audit   '@apideck/better-ajv-errors': [ '0.3.6' ],
+450 silly audit   'workbox-cacheable-response': [ '6.6.0' ],
+450 silly audit   'workbox-core': [ '6.6.0' ],
+450 silly audit   'workbox-expiration': [ '6.6.0' ],
+450 silly audit   'workbox-google-analytics': [ '6.6.0' ],
+450 silly audit   'workbox-navigation-preload': [ '6.6.0' ],
+450 silly audit   'workbox-precaching': [ '6.6.0' ],
+450 silly audit   'workbox-range-requests': [ '6.6.0' ],
+450 silly audit   'workbox-recipes': [ '6.6.0' ],
+450 silly audit   'workbox-routing': [ '6.6.0' ],
+450 silly audit   'workbox-strategies': [ '6.6.0' ],
+450 silly audit   'workbox-streams': [ '6.6.0' ],
+450 silly audit   'workbox-sw': [ '6.6.0' ],
+450 silly audit   'workbox-webpack-plugin': [ '6.6.0' ],
+450 silly audit   'workbox-window': [ '6.6.0' ],
+450 silly audit   'wrap-ansi': [ '7.0.0' ],
+450 silly audit   wrappy: [ '1.0.2' ],
+450 silly audit   'write-file-atomic': [ '3.0.3' ],
+450 silly audit   'xml-name-validator': [ '3.0.0' ],
+450 silly audit   xmlchars: [ '2.2.0' ],
+450 silly audit   y18n: [ '5.0.8' ],
+450 silly audit   yallist: [ '3.1.1' ],
+450 silly audit   yaml: [ '1.10.2' ],
+450 silly audit   yargs: [ '16.2.0' ],
+450 silly audit   'yargs-parser': [ '20.2.9' ],
+450 silly audit   'yocto-queue': [ '0.1.0' ],
+450 silly audit   antd: [ '6.1.1' ],
+450 silly audit   '@ant-design/colors': [ '8.0.0' ],
+450 silly audit   '@ant-design/cssinjs': [ '2.0.1' ],
+450 silly audit   '@ant-design/cssinjs-utils': [ '2.0.2' ],
+450 silly audit   '@ant-design/fast-color': [ '3.0.0' ],
+450 silly audit   '@ant-design/icons': [ '6.1.0' ],
+450 silly audit   '@ant-design/react-slick': [ '2.0.0' ],
+450 silly audit   '@rc-component/cascader': [ '1.9.0' ],
+450 silly audit   '@rc-component/checkbox': [ '1.0.1' ],
+450 silly audit   '@rc-component/collapse': [ '1.1.2' ],
+450 silly audit   '@rc-component/color-picker': [ '3.0.3' ],
+450 silly audit   '@rc-component/dialog': [ '1.5.1' ],
+450 silly audit   '@rc-component/drawer': [ '1.3.0' ],
+450 silly audit   '@rc-component/dropdown': [ '1.0.2' ],
+450 silly audit   '@rc-component/form': [ '1.5.0' ],
+450 silly audit   '@rc-component/image': [ '1.5.3' ],
+450 silly audit   '@rc-component/input': [ '1.1.2' ],
+450 silly audit   '@rc-component/input-number': [ '1.6.2' ],
+450 silly audit   '@rc-component/mentions': [ '1.6.0' ],
+450 silly audit   '@rc-component/menu': [ '1.2.0' ],
+450 silly audit   '@rc-component/motion': [ '1.1.6' ],
+450 silly audit   '@rc-component/mutate-observer': [ '2.0.1' ],
+450 silly audit   '@rc-component/notification': [ '1.2.0' ],
+450 silly audit   '@rc-component/pagination': [ '1.2.0' ],
+450 silly audit   '@rc-component/picker': [ '1.9.0' ],
+450 silly audit   '@rc-component/progress': [ '1.0.2' ],
+450 silly audit   '@rc-component/qrcode': [ '1.1.1' ],
+450 silly audit   '@rc-component/rate': [ '1.0.1' ],
+450 silly audit   '@rc-component/resize-observer': [ '1.0.1' ],
+450 silly audit   '@rc-component/segmented': [ '1.2.3' ],
+450 silly audit   '@rc-component/select': [ '1.3.6' ],
+450 silly audit   '@rc-component/slider': [ '1.0.1' ],
+450 silly audit   '@rc-component/steps': [ '1.2.2' ],
+450 silly audit   '@rc-component/switch': [ '1.0.3' ],
+450 silly audit   '@rc-component/table': [ '1.9.0' ],
+450 silly audit   '@rc-component/tabs': [ '1.7.0' ],
+450 silly audit   '@rc-component/textarea': [ '1.1.2' ],
+450 silly audit   '@rc-component/tooltip': [ '1.4.0' ],
+450 silly audit   '@rc-component/tour': [ '2.2.1' ],
+450 silly audit   '@rc-component/tree': [ '1.1.0' ],
+450 silly audit   '@rc-component/tree-select': [ '1.4.0' ],
+450 silly audit   '@rc-component/trigger': [ '3.7.2' ],
+450 silly audit   '@rc-component/upload': [ '1.1.0' ],
+450 silly audit   '@rc-component/util': [ '1.6.0' ],
+450 silly audit   clsx: [ '2.1.1' ],
+450 silly audit   dayjs: [ '1.11.19' ],
+450 silly audit   'scroll-into-view-if-needed': [ '3.1.0' ],
+450 silly audit   'throttle-debounce': [ '5.0.2' ],
+450 silly audit   '@emotion/hash': [ '0.8.0' ],
+450 silly audit   '@emotion/unitless': [ '0.7.5' ],
+450 silly audit   csstype: [ '3.2.3' ],
+450 silly audit   stylis: [ '4.3.6' ],
+450 silly audit   '@ant-design/icons-svg': [ '4.4.2' ],
+450 silly audit   json2mq: [ '0.2.0' ],
+450 silly audit   '@rc-component/portal': [ '2.0.1' ],
+450 silly audit   '@rc-component/async-validator': [ '5.0.4' ],
+450 silly audit   '@rc-component/mini-decimal': [ '1.1.0' ],
+450 silly audit   '@rc-component/overflow': [ '1.0.0' ],
+450 silly audit   '@rc-component/virtual-list': [ '1.0.2' ],
+450 silly audit   '@rc-component/context': [ '2.0.1' ],
+450 silly audit   'is-mobile': [ '5.0.0' ],
+450 silly audit   'string-convert': [ '0.2.1' ],
+450 silly audit   'compute-scroll-into-view': [ '3.1.1' ]
+450 silly audit }
+451 http cache compute-scroll-into-view@https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.1.tgz 0ms (cache hit)
+452 http cache string-convert@https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz 0ms (cache hit)
+453 http cache is-mobile@https://registry.npmjs.org/is-mobile/-/is-mobile-5.0.0.tgz 0ms (cache hit)
+454 http cache @rc-component/context@https://registry.npmjs.org/@rc-component/context/-/context-2.0.1.tgz 0ms (cache hit)
+455 http cache @rc-component/virtual-list@https://registry.npmjs.org/@rc-component/virtual-list/-/virtual-list-1.0.2.tgz 0ms (cache hit)
+456 http cache @rc-component/overflow@https://registry.npmjs.org/@rc-component/overflow/-/overflow-1.0.0.tgz 0ms (cache hit)
+457 http cache @rc-component/mini-decimal@https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.1.0.tgz 0ms (cache hit)
+458 http cache @rc-component/async-validator@https://registry.npmjs.org/@rc-component/async-validator/-/async-validator-5.0.4.tgz 0ms (cache hit)
+459 http cache @rc-component/portal@https://registry.npmjs.org/@rc-component/portal/-/portal-2.0.1.tgz 1ms (cache hit)
+460 http cache @ant-design/icons-svg@https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.4.2.tgz 0ms (cache hit)
+461 http cache json2mq@https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz 0ms (cache hit)
+462 http cache stylis@https://registry.npmjs.org/stylis/-/stylis-4.3.6.tgz 0ms (cache hit)
+463 http cache @emotion/unitless@https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz 0ms (cache hit)
+464 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 0ms (cache hit)
+465 http cache @emotion/hash@https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz 0ms (cache hit)
+466 http cache dayjs@https://registry.npmjs.org/dayjs/-/dayjs-1.11.19.tgz 0ms (cache hit)
+467 http cache throttle-debounce@https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.2.tgz 0ms (cache hit)
+468 http cache scroll-into-view-if-needed@https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz 0ms (cache hit)
+469 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+470 http cache @rc-component/util@https://registry.npmjs.org/@rc-component/util/-/util-1.6.0.tgz 0ms (cache hit)
+471 http cache @rc-component/upload@https://registry.npmjs.org/@rc-component/upload/-/upload-1.1.0.tgz 0ms (cache hit)
+472 http cache @rc-component/trigger@https://registry.npmjs.org/@rc-component/trigger/-/trigger-3.7.2.tgz 0ms (cache hit)
+473 http cache @rc-component/tree-select@https://registry.npmjs.org/@rc-component/tree-select/-/tree-select-1.4.0.tgz 0ms (cache hit)
+474 http cache @rc-component/tree@https://registry.npmjs.org/@rc-component/tree/-/tree-1.1.0.tgz 0ms (cache hit)
+475 http cache @rc-component/tooltip@https://registry.npmjs.org/@rc-component/tooltip/-/tooltip-1.4.0.tgz 0ms (cache hit)
+476 http cache @rc-component/textarea@https://registry.npmjs.org/@rc-component/textarea/-/textarea-1.1.2.tgz 0ms (cache hit)
+477 http cache @rc-component/tour@https://registry.npmjs.org/@rc-component/tour/-/tour-2.2.1.tgz 0ms (cache hit)
+478 http cache @rc-component/tabs@https://registry.npmjs.org/@rc-component/tabs/-/tabs-1.7.0.tgz 0ms (cache hit)
+479 http cache @rc-component/table@https://registry.npmjs.org/@rc-component/table/-/table-1.9.0.tgz 0ms (cache hit)
+480 http cache @rc-component/switch@https://registry.npmjs.org/@rc-component/switch/-/switch-1.0.3.tgz 0ms (cache hit)
+481 http cache @rc-component/steps@https://registry.npmjs.org/@rc-component/steps/-/steps-1.2.2.tgz 0ms (cache hit)
+482 http cache @rc-component/slider@https://registry.npmjs.org/@rc-component/slider/-/slider-1.0.1.tgz 0ms (cache hit)
+483 http cache @rc-component/segmented@https://registry.npmjs.org/@rc-component/segmented/-/segmented-1.2.3.tgz 0ms (cache hit)
+484 http cache @rc-component/resize-observer@https://registry.npmjs.org/@rc-component/resize-observer/-/resize-observer-1.0.1.tgz 0ms (cache hit)
+485 http cache @rc-component/select@https://registry.npmjs.org/@rc-component/select/-/select-1.3.6.tgz 0ms (cache hit)
+486 http cache @rc-component/rate@https://registry.npmjs.org/@rc-component/rate/-/rate-1.0.1.tgz 0ms (cache hit)
+487 http cache @rc-component/qrcode@https://registry.npmjs.org/@rc-component/qrcode/-/qrcode-1.1.1.tgz 0ms (cache hit)
+488 http cache @rc-component/progress@https://registry.npmjs.org/@rc-component/progress/-/progress-1.0.2.tgz 0ms (cache hit)
+489 http cache @rc-component/picker@https://registry.npmjs.org/@rc-component/picker/-/picker-1.9.0.tgz 0ms (cache hit)
+490 http cache @rc-component/pagination@https://registry.npmjs.org/@rc-component/pagination/-/pagination-1.2.0.tgz 0ms (cache hit)
+491 http cache @rc-component/notification@https://registry.npmjs.org/@rc-component/notification/-/notification-1.2.0.tgz 0ms (cache hit)
+492 http cache @rc-component/motion@https://registry.npmjs.org/@rc-component/motion/-/motion-1.1.6.tgz 0ms (cache hit)
+493 http cache @rc-component/mutate-observer@https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-2.0.1.tgz 0ms (cache hit)
+494 http cache @rc-component/menu@https://registry.npmjs.org/@rc-component/menu/-/menu-1.2.0.tgz 0ms (cache hit)
+495 http cache @rc-component/mentions@https://registry.npmjs.org/@rc-component/mentions/-/mentions-1.6.0.tgz 0ms (cache hit)
+496 http cache @rc-component/input-number@https://registry.npmjs.org/@rc-component/input-number/-/input-number-1.6.2.tgz 0ms (cache hit)
+497 http cache @rc-component/input@https://registry.npmjs.org/@rc-component/input/-/input-1.1.2.tgz 0ms (cache hit)
+498 http cache @rc-component/image@https://registry.npmjs.org/@rc-component/image/-/image-1.5.3.tgz 0ms (cache hit)
+499 http cache @rc-component/form@https://registry.npmjs.org/@rc-component/form/-/form-1.5.0.tgz 0ms (cache hit)
+500 http cache @rc-component/dropdown@https://registry.npmjs.org/@rc-component/dropdown/-/dropdown-1.0.2.tgz 0ms (cache hit)
+501 http cache @rc-component/dialog@https://registry.npmjs.org/@rc-component/dialog/-/dialog-1.5.1.tgz 0ms (cache hit)
+502 http cache @rc-component/color-picker@https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-3.0.3.tgz 0ms (cache hit)
+503 http cache @rc-component/drawer@https://registry.npmjs.org/@rc-component/drawer/-/drawer-1.3.0.tgz 0ms (cache hit)
+504 http cache @rc-component/collapse@https://registry.npmjs.org/@rc-component/collapse/-/collapse-1.1.2.tgz 0ms (cache hit)
+505 http cache @rc-component/checkbox@https://registry.npmjs.org/@rc-component/checkbox/-/checkbox-1.0.1.tgz 0ms (cache hit)
+506 http cache @rc-component/cascader@https://registry.npmjs.org/@rc-component/cascader/-/cascader-1.9.0.tgz 0ms (cache hit)
+507 http cache @ant-design/react-slick@https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-2.0.0.tgz 0ms (cache hit)
+508 http cache @ant-design/icons@https://registry.npmjs.org/@ant-design/icons/-/icons-6.1.0.tgz 0ms (cache hit)
+509 http cache @ant-design/fast-color@https://registry.npmjs.org/@ant-design/fast-color/-/fast-color-3.0.0.tgz 0ms (cache hit)
+510 http cache @ant-design/cssinjs-utils@https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-2.0.2.tgz 0ms (cache hit)
+511 http cache @ant-design/colors@https://registry.npmjs.org/@ant-design/colors/-/colors-8.0.0.tgz 0ms (cache hit)
+512 http cache @ant-design/cssinjs@https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-2.0.1.tgz 0ms (cache hit)
+513 http cache antd@https://registry.npmjs.org/antd/-/antd-6.1.1.tgz 0ms (cache hit)
+514 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz 0ms (cache hit)
+515 silly tarball no local data for compute-scroll-into-view@https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.1.tgz. Extracting by manifest.
+516 silly tarball no local data for string-convert@https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz. Extracting by manifest.
+517 silly tarball no local data for is-mobile@https://registry.npmjs.org/is-mobile/-/is-mobile-5.0.0.tgz. Extracting by manifest.
+518 silly tarball no local data for @rc-component/context@https://registry.npmjs.org/@rc-component/context/-/context-2.0.1.tgz. Extracting by manifest.
+519 silly tarball no local data for @rc-component/virtual-list@https://registry.npmjs.org/@rc-component/virtual-list/-/virtual-list-1.0.2.tgz. Extracting by manifest.
+520 silly tarball no local data for @rc-component/overflow@https://registry.npmjs.org/@rc-component/overflow/-/overflow-1.0.0.tgz. Extracting by manifest.
+521 silly tarball no local data for @rc-component/mini-decimal@https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.1.0.tgz. Extracting by manifest.
+522 silly tarball no local data for @rc-component/async-validator@https://registry.npmjs.org/@rc-component/async-validator/-/async-validator-5.0.4.tgz. Extracting by manifest.
+523 silly tarball no local data for @rc-component/portal@https://registry.npmjs.org/@rc-component/portal/-/portal-2.0.1.tgz. Extracting by manifest.
+524 silly tarball no local data for @ant-design/icons-svg@https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.4.2.tgz. Extracting by manifest.
+525 silly tarball no local data for json2mq@https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz. Extracting by manifest.
+526 silly tarball no local data for stylis@https://registry.npmjs.org/stylis/-/stylis-4.3.6.tgz. Extracting by manifest.
+527 silly tarball no local data for @emotion/unitless@https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz. Extracting by manifest.
+528 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz. Extracting by manifest.
+529 silly tarball no local data for @emotion/hash@https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz. Extracting by manifest.
+530 silly tarball no local data for dayjs@https://registry.npmjs.org/dayjs/-/dayjs-1.11.19.tgz. Extracting by manifest.
+531 silly tarball no local data for throttle-debounce@https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.2.tgz. Extracting by manifest.
+532 silly tarball no local data for scroll-into-view-if-needed@https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz. Extracting by manifest.
+533 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+534 silly tarball no local data for @rc-component/util@https://registry.npmjs.org/@rc-component/util/-/util-1.6.0.tgz. Extracting by manifest.
+535 silly tarball no local data for @rc-component/upload@https://registry.npmjs.org/@rc-component/upload/-/upload-1.1.0.tgz. Extracting by manifest.
+536 silly tarball no local data for @rc-component/trigger@https://registry.npmjs.org/@rc-component/trigger/-/trigger-3.7.2.tgz. Extracting by manifest.
+537 silly tarball no local data for @rc-component/tree-select@https://registry.npmjs.org/@rc-component/tree-select/-/tree-select-1.4.0.tgz. Extracting by manifest.
+538 silly tarball no local data for @rc-component/tree@https://registry.npmjs.org/@rc-component/tree/-/tree-1.1.0.tgz. Extracting by manifest.
+539 silly tarball no local data for @rc-component/tooltip@https://registry.npmjs.org/@rc-component/tooltip/-/tooltip-1.4.0.tgz. Extracting by manifest.
+540 silly tarball no local data for @rc-component/textarea@https://registry.npmjs.org/@rc-component/textarea/-/textarea-1.1.2.tgz. Extracting by manifest.
+541 silly tarball no local data for @rc-component/tour@https://registry.npmjs.org/@rc-component/tour/-/tour-2.2.1.tgz. Extracting by manifest.
+542 silly tarball no local data for @rc-component/tabs@https://registry.npmjs.org/@rc-component/tabs/-/tabs-1.7.0.tgz. Extracting by manifest.
+543 silly tarball no local data for @rc-component/table@https://registry.npmjs.org/@rc-component/table/-/table-1.9.0.tgz. Extracting by manifest.
+544 silly tarball no local data for @rc-component/switch@https://registry.npmjs.org/@rc-component/switch/-/switch-1.0.3.tgz. Extracting by manifest.
+545 silly tarball no local data for @rc-component/steps@https://registry.npmjs.org/@rc-component/steps/-/steps-1.2.2.tgz. Extracting by manifest.
+546 silly tarball no local data for @rc-component/slider@https://registry.npmjs.org/@rc-component/slider/-/slider-1.0.1.tgz. Extracting by manifest.
+547 silly tarball no local data for @rc-component/segmented@https://registry.npmjs.org/@rc-component/segmented/-/segmented-1.2.3.tgz. Extracting by manifest.
+548 silly tarball no local data for @rc-component/resize-observer@https://registry.npmjs.org/@rc-component/resize-observer/-/resize-observer-1.0.1.tgz. Extracting by manifest.
+549 silly tarball no local data for @rc-component/select@https://registry.npmjs.org/@rc-component/select/-/select-1.3.6.tgz. Extracting by manifest.
+550 silly tarball no local data for @rc-component/rate@https://registry.npmjs.org/@rc-component/rate/-/rate-1.0.1.tgz. Extracting by manifest.
+551 silly tarball no local data for @rc-component/qrcode@https://registry.npmjs.org/@rc-component/qrcode/-/qrcode-1.1.1.tgz. Extracting by manifest.
+552 silly tarball no local data for @rc-component/progress@https://registry.npmjs.org/@rc-component/progress/-/progress-1.0.2.tgz. Extracting by manifest.
+553 silly tarball no local data for @rc-component/picker@https://registry.npmjs.org/@rc-component/picker/-/picker-1.9.0.tgz. Extracting by manifest.
+554 silly tarball no local data for @rc-component/pagination@https://registry.npmjs.org/@rc-component/pagination/-/pagination-1.2.0.tgz. Extracting by manifest.
+555 silly tarball no local data for @rc-component/notification@https://registry.npmjs.org/@rc-component/notification/-/notification-1.2.0.tgz. Extracting by manifest.
+556 silly tarball no local data for @rc-component/motion@https://registry.npmjs.org/@rc-component/motion/-/motion-1.1.6.tgz. Extracting by manifest.
+557 silly tarball no local data for @rc-component/mutate-observer@https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-2.0.1.tgz. Extracting by manifest.
+558 silly tarball no local data for @rc-component/menu@https://registry.npmjs.org/@rc-component/menu/-/menu-1.2.0.tgz. Extracting by manifest.
+559 silly tarball no local data for @rc-component/mentions@https://registry.npmjs.org/@rc-component/mentions/-/mentions-1.6.0.tgz. Extracting by manifest.
+560 silly tarball no local data for @rc-component/input-number@https://registry.npmjs.org/@rc-component/input-number/-/input-number-1.6.2.tgz. Extracting by manifest.
+561 silly tarball no local data for @rc-component/input@https://registry.npmjs.org/@rc-component/input/-/input-1.1.2.tgz. Extracting by manifest.
+562 silly tarball no local data for @rc-component/image@https://registry.npmjs.org/@rc-component/image/-/image-1.5.3.tgz. Extracting by manifest.
+563 silly tarball no local data for @rc-component/form@https://registry.npmjs.org/@rc-component/form/-/form-1.5.0.tgz. Extracting by manifest.
+564 silly tarball no local data for @rc-component/dropdown@https://registry.npmjs.org/@rc-component/dropdown/-/dropdown-1.0.2.tgz. Extracting by manifest.
+565 silly tarball no local data for @rc-component/dialog@https://registry.npmjs.org/@rc-component/dialog/-/dialog-1.5.1.tgz. Extracting by manifest.
+566 silly tarball no local data for @rc-component/color-picker@https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-3.0.3.tgz. Extracting by manifest.
+567 silly tarball no local data for @rc-component/drawer@https://registry.npmjs.org/@rc-component/drawer/-/drawer-1.3.0.tgz. Extracting by manifest.
+568 silly tarball no local data for @rc-component/collapse@https://registry.npmjs.org/@rc-component/collapse/-/collapse-1.1.2.tgz. Extracting by manifest.
+569 silly tarball no local data for @rc-component/checkbox@https://registry.npmjs.org/@rc-component/checkbox/-/checkbox-1.0.1.tgz. Extracting by manifest.
+570 silly tarball no local data for @rc-component/cascader@https://registry.npmjs.org/@rc-component/cascader/-/cascader-1.9.0.tgz. Extracting by manifest.
+571 silly tarball no local data for @ant-design/react-slick@https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-2.0.0.tgz. Extracting by manifest.
+572 silly tarball no local data for @ant-design/icons@https://registry.npmjs.org/@ant-design/icons/-/icons-6.1.0.tgz. Extracting by manifest.
+573 silly tarball no local data for @ant-design/fast-color@https://registry.npmjs.org/@ant-design/fast-color/-/fast-color-3.0.0.tgz. Extracting by manifest.
+574 silly tarball no local data for @ant-design/cssinjs-utils@https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-2.0.2.tgz. Extracting by manifest.
+575 silly tarball no local data for @ant-design/colors@https://registry.npmjs.org/@ant-design/colors/-/colors-8.0.0.tgz. Extracting by manifest.
+576 silly tarball no local data for @ant-design/cssinjs@https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-2.0.1.tgz. Extracting by manifest.
+577 silly tarball no local data for antd@https://registry.npmjs.org/antd/-/antd-6.1.1.tgz. Extracting by manifest.
+578 silly tarball no local data for react-is@https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz. Extracting by manifest.
+579 http fetch GET 200 https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz 161ms (cache miss)
+580 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 284ms
+581 silly audit report {
+581 silly audit report   'nth-check': [
+581 silly audit report     {
+581 silly audit report       id: 1095141,
+581 silly audit report       url: 'https://github.com/advisories/GHSA-rp65-9cf3-cjxr',
+581 silly audit report       title: 'Inefficient Regular Expression Complexity in nth-check',
+581 silly audit report       severity: 'high',
+581 silly audit report       vulnerable_versions: '<2.0.1',
+581 silly audit report       cwe: [Array],
+581 silly audit report       cvss: [Object]
+581 silly audit report     }
+581 silly audit report   ],
+581 silly audit report   postcss: [
+581 silly audit report     {
+581 silly audit report       id: 1109574,
+581 silly audit report       url: 'https://github.com/advisories/GHSA-7fh5-64p2-3v2j',
+581 silly audit report       title: 'PostCSS line return parsing error',
+581 silly audit report       severity: 'moderate',
+581 silly audit report       vulnerable_versions: '<8.4.31',
+581 silly audit report       cwe: [Array],
+581 silly audit report       cvss: [Object]
+581 silly audit report     }
+581 silly audit report   ],
+581 silly audit report   'webpack-dev-server': [
+581 silly audit report     {
+581 silly audit report       id: 1108429,
+581 silly audit report       url: 'https://github.com/advisories/GHSA-9jgg-88mc-972h',
+581 silly audit report       title: "webpack-dev-server users' source code may be stolen when they access a malicious web site with non-Chromium based browser",
+581 silly audit report       severity: 'moderate',
+581 silly audit report       vulnerable_versions: '<=5.2.0',
+581 silly audit report       cwe: [Array],
+581 silly audit report       cvss: [Object]
+581 silly audit report     },
+581 silly audit report     {
+581 silly audit report       id: 1108430,
+581 silly audit report       url: 'https://github.com/advisories/GHSA-4v9v-hfq4-rm2v',
+581 silly audit report       title: "webpack-dev-server users' source code may be stolen when they access a malicious web site",
+581 silly audit report       severity: 'moderate',
+581 silly audit report       vulnerable_versions: '<=5.2.0',
+581 silly audit report       cwe: [Array],
+581 silly audit report       cvss: [Object]
+581 silly audit report     }
+581 silly audit report   ]
+581 silly audit report }
+582 silly packumentCache corgi:https://registry.npmjs.org/nth-check cache-miss
+583 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+584 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-server cache-miss
+585 http fetch GET 200 https://registry.npmjs.org/@emotion/hash/-/hash-0.8.0.tgz 477ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/throttle-debounce/-/throttle-debounce-5.0.2.tgz 489ms (cache miss)
+587 http fetch GET 200 https://registry.npmjs.org/scroll-into-view-if-needed/-/scroll-into-view-if-needed-3.1.0.tgz 526ms (cache miss)
+588 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 613ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.1.tgz 644ms (cache miss)
+590 http fetch GET 200 https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz 637ms (cache miss)
+591 http fetch GET 200 https://registry.npmjs.org/@rc-component/upload/-/upload-1.1.0.tgz 646ms (cache miss)
+592 http fetch GET 200 https://registry.npmjs.org/is-mobile/-/is-mobile-5.0.0.tgz 698ms (cache miss)
+593 http fetch GET 200 https://registry.npmjs.org/@emotion/unitless/-/unitless-0.7.5.tgz 857ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/@rc-component/switch/-/switch-1.0.3.tgz 839ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/@rc-component/context/-/context-2.0.1.tgz 926ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/@rc-component/rate/-/rate-1.0.1.tgz 1130ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/@rc-component/input-number/-/input-number-1.6.2.tgz 1187ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/@rc-component/mentions/-/mentions-1.6.0.tgz 1188ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/stylis/-/stylis-4.3.6.tgz 1342ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/@rc-component/segmented/-/segmented-1.2.3.tgz 1384ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/nth-check 1223ms (cache revalidated)
+602 silly packumentCache corgi:https://registry.npmjs.org/nth-check set size:10078 disposed:false
+603 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 1234ms (cache revalidated)
+604 silly packumentCache corgi:https://registry.npmjs.org/webpack-dev-server set size:455204 disposed:false
+605 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz 1467ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/postcss 1416ms (cache revalidated)
+607 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:337129 disposed:false
+608 silly packumentCache corgi:https://registry.npmjs.org/css-select cache-miss
+609 http fetch GET 200 https://registry.npmjs.org/@rc-component/tooltip/-/tooltip-1.4.0.tgz 1643ms (cache miss)
+610 http fetch GET 200 https://registry.npmjs.org/@rc-component/dropdown/-/dropdown-1.0.2.tgz 1705ms (cache miss)
+611 http fetch GET 200 https://registry.npmjs.org/@rc-component/checkbox/-/checkbox-1.0.1.tgz 1755ms (cache miss)
+612 http fetch GET 200 https://registry.npmjs.org/react-is/-/react-is-18.3.1.tgz 1832ms (cache miss)
+613 http fetch GET 200 https://registry.npmjs.org/@rc-component/resize-observer/-/resize-observer-1.0.1.tgz 2023ms (cache miss)
+614 http fetch GET 200 https://registry.npmjs.org/css-select 450ms (cache revalidated)
+615 silly packumentCache corgi:https://registry.npmjs.org/css-select set size:48469 disposed:false
+616 silly packumentCache corgi:https://registry.npmjs.org/resolve-url-loader cache-miss
+617 http fetch GET 200 https://registry.npmjs.org/@rc-component/mutate-observer/-/mutate-observer-2.0.1.tgz 2295ms (cache miss)
+618 http fetch GET 200 https://registry.npmjs.org/@rc-component/portal/-/portal-2.0.1.tgz 3182ms (cache miss)
+619 http fetch GET 200 https://registry.npmjs.org/@ant-design/fast-color/-/fast-color-3.0.0.tgz 3252ms (cache miss)
+620 http fetch GET 200 https://registry.npmjs.org/@rc-component/mini-decimal/-/mini-decimal-1.1.0.tgz 3312ms (cache miss)
+621 http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 1400ms (cache revalidated)
+622 silly packumentCache corgi:https://registry.npmjs.org/resolve-url-loader set size:61938 disposed:false
+623 silly packumentCache corgi:https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin cache-miss
+624 silly packumentCache corgi:https://registry.npmjs.org/react-scripts cache-miss
+625 http fetch GET 200 https://registry.npmjs.org/@rc-component/textarea/-/textarea-1.1.2.tgz 3522ms (cache miss)
+626 http fetch GET 200 https://registry.npmjs.org/@rc-component/overflow/-/overflow-1.0.0.tgz 3554ms (cache miss)
+627 http fetch GET 200 https://registry.npmjs.org/@rc-component/steps/-/steps-1.2.2.tgz 3625ms (cache miss)
+628 http fetch GET 200 https://registry.npmjs.org/react-scripts 273ms (cache revalidated)
+629 silly packumentCache corgi:https://registry.npmjs.org/react-scripts set size:342451 disposed:false
+630 http fetch GET 200 https://registry.npmjs.org/@rc-component/collapse/-/collapse-1.1.2.tgz 3836ms (cache miss)
+631 http fetch GET 200 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 930ms (cache revalidated)
+632 silly packumentCache corgi:https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin set size:206166 disposed:false
+633 silly packumentCache corgi:https://registry.npmjs.org/svgo cache-miss
+634 http fetch GET 200 https://registry.npmjs.org/@rc-component/input/-/input-1.1.2.tgz 4497ms (cache miss)
+635 http fetch GET 200 https://registry.npmjs.org/@rc-component/notification/-/notification-1.2.0.tgz 4564ms (cache miss)
+636 http fetch GET 200 https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-2.0.0.tgz 4571ms (cache miss)
+637 http fetch GET 200 https://registry.npmjs.org/@rc-component/qrcode/-/qrcode-1.1.1.tgz 4592ms (cache miss)
+638 http fetch GET 200 https://registry.npmjs.org/@rc-component/drawer/-/drawer-1.3.0.tgz 4593ms (cache miss)
+639 http fetch GET 200 https://registry.npmjs.org/@ant-design/colors/-/colors-8.0.0.tgz 4718ms (cache miss)
+640 http fetch GET 200 https://registry.npmjs.org/@rc-component/tour/-/tour-2.2.1.tgz 4767ms (cache miss)
+641 http fetch GET 200 https://registry.npmjs.org/svgo 338ms (cache revalidated)
+642 silly packumentCache corgi:https://registry.npmjs.org/svgo set size:133164 disposed:false
+643 http fetch GET 200 https://registry.npmjs.org/@rc-component/progress/-/progress-1.0.2.tgz 4832ms (cache miss)
+644 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fplugin-svgo cache-miss
+645 http fetch GET 200 https://registry.npmjs.org/@svgr%2fplugin-svgo 204ms (cache revalidated)
+646 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fplugin-svgo set size:36570 disposed:false
+647 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fwebpack cache-miss
+648 http fetch GET 200 https://registry.npmjs.org/@rc-component/motion/-/motion-1.1.6.tgz 5215ms (cache miss)
+649 http fetch GET 200 https://registry.npmjs.org/@rc-component/dialog/-/dialog-1.5.1.tgz 5217ms (cache miss)
+650 http fetch GET 200 https://registry.npmjs.org/@rc-component/tree/-/tree-1.1.0.tgz 5294ms (cache miss)
+651 http fetch GET 200 https://registry.npmjs.org/@rc-component/slider/-/slider-1.0.1.tgz 5424ms (cache miss)
+652 http fetch GET 200 https://registry.npmjs.org/@rc-component/color-picker/-/color-picker-3.0.3.tgz 5460ms (cache miss)
+653 http fetch GET 200 https://registry.npmjs.org/@rc-component/trigger/-/trigger-3.7.2.tgz 5529ms (cache miss)
+654 http fetch GET 200 https://registry.npmjs.org/@rc-component/virtual-list/-/virtual-list-1.0.2.tgz 5624ms (cache miss)
+655 http fetch GET 200 https://registry.npmjs.org/@rc-component/form/-/form-1.5.0.tgz 5600ms (cache miss)
+656 http fetch GET 200 https://registry.npmjs.org/@rc-component/tree-select/-/tree-select-1.4.0.tgz 5637ms (cache miss)
+657 http fetch GET 200 https://registry.npmjs.org/@rc-component/tabs/-/tabs-1.7.0.tgz 5637ms (cache miss)
+658 http fetch GET 200 https://registry.npmjs.org/@rc-component/image/-/image-1.5.3.tgz 5627ms (cache miss)
+659 http fetch GET 200 https://registry.npmjs.org/@ant-design/cssinjs-utils/-/cssinjs-utils-2.0.2.tgz 5666ms (cache miss)
+660 http fetch GET 200 https://registry.npmjs.org/@svgr%2fwebpack 810ms (cache revalidated)
+661 silly packumentCache corgi:https://registry.npmjs.org/@svgr%2fwebpack set size:85201 disposed:false
+662 http fetch GET 200 https://registry.npmjs.org/@rc-component/cascader/-/cascader-1.9.0.tgz 5948ms (cache miss)
+663 http fetch GET 200 https://registry.npmjs.org/@rc-component/async-validator/-/async-validator-5.0.4.tgz 6116ms (cache miss)
+664 http fetch GET 200 https://registry.npmjs.org/@rc-component/menu/-/menu-1.2.0.tgz 6143ms (cache miss)
+665 http fetch GET 200 https://registry.npmjs.org/@rc-component/util/-/util-1.6.0.tgz 6651ms (cache miss)
+666 http fetch GET 200 https://registry.npmjs.org/@rc-component/select/-/select-1.3.6.tgz 6663ms (cache miss)
+667 http fetch GET 200 https://registry.npmjs.org/@ant-design/cssinjs/-/cssinjs-2.0.1.tgz 6703ms (cache miss)
+668 http fetch GET 200 https://registry.npmjs.org/@rc-component/table/-/table-1.9.0.tgz 7187ms (cache miss)
+669 http fetch GET 200 https://registry.npmjs.org/@rc-component/pagination/-/pagination-1.2.0.tgz 7780ms (cache miss)
+670 http fetch GET 200 https://registry.npmjs.org/dayjs/-/dayjs-1.11.19.tgz 8186ms (cache miss)
+671 http fetch GET 200 https://registry.npmjs.org/@rc-component/picker/-/picker-1.9.0.tgz 8847ms (cache miss)
+672 http fetch GET 200 https://registry.npmjs.org/@ant-design/icons/-/icons-6.1.0.tgz 19734ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/antd/-/antd-6.1.1.tgz 21667ms (cache miss)
+674 http fetch GET 200 https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.4.2.tgz 22291ms (cache miss)
+675 silly ADD node_modules/compute-scroll-into-view
+676 silly ADD node_modules/string-convert
+677 silly ADD node_modules/is-mobile
+678 silly ADD node_modules/@rc-component/context
+679 silly ADD node_modules/@rc-component/virtual-list
+680 silly ADD node_modules/@rc-component/overflow
+681 silly ADD node_modules/@rc-component/mini-decimal
+682 silly ADD node_modules/@rc-component/async-validator
+683 silly ADD node_modules/@rc-component/portal
+684 silly ADD node_modules/json2mq
+685 silly ADD node_modules/@ant-design/icons-svg
+686 silly ADD node_modules/stylis
+687 silly ADD node_modules/csstype
+688 silly ADD node_modules/@emotion/unitless
+689 silly ADD node_modules/@emotion/hash
+690 silly ADD node_modules/throttle-debounce
+691 silly ADD node_modules/scroll-into-view-if-needed
+692 silly ADD node_modules/dayjs
+693 silly ADD node_modules/clsx
+694 silly ADD node_modules/@rc-component/util
+695 silly ADD node_modules/@rc-component/util/node_modules/react-is
+696 silly ADD node_modules/@rc-component/upload
+697 silly ADD node_modules/@rc-component/trigger
+698 silly ADD node_modules/@rc-component/tree-select
+699 silly ADD node_modules/@rc-component/tree
+700 silly ADD node_modules/@rc-component/tour
+701 silly ADD node_modules/@rc-component/tooltip
+702 silly ADD node_modules/@rc-component/textarea
+703 silly ADD node_modules/@rc-component/tabs
+704 silly ADD node_modules/@rc-component/table
+705 silly ADD node_modules/@rc-component/switch
+706 silly ADD node_modules/@rc-component/steps
+707 silly ADD node_modules/@rc-component/slider
+708 silly ADD node_modules/@rc-component/select
+709 silly ADD node_modules/@rc-component/segmented
+710 silly ADD node_modules/@rc-component/resize-observer
+711 silly ADD node_modules/@rc-component/rate
+712 silly ADD node_modules/@rc-component/qrcode
+713 silly ADD node_modules/@rc-component/progress
+714 silly ADD node_modules/@rc-component/picker
+715 silly ADD node_modules/@rc-component/pagination
+716 silly ADD node_modules/@rc-component/notification
+717 silly ADD node_modules/@rc-component/mutate-observer
+718 silly ADD node_modules/@rc-component/motion
+719 silly ADD node_modules/@rc-component/menu
+720 silly ADD node_modules/@rc-component/mentions
+721 silly ADD node_modules/@rc-component/input-number
+722 silly ADD node_modules/@rc-component/input
+723 silly ADD node_modules/@rc-component/image
+724 silly ADD node_modules/@rc-component/form
+725 silly ADD node_modules/@rc-component/dropdown
+726 silly ADD node_modules/@rc-component/drawer
+727 silly ADD node_modules/@rc-component/dialog
+728 silly ADD node_modules/@rc-component/color-picker
+729 silly ADD node_modules/@rc-component/collapse
+730 silly ADD node_modules/@rc-component/checkbox
+731 silly ADD node_modules/@rc-component/cascader
+732 silly ADD node_modules/@ant-design/react-slick
+733 silly ADD node_modules/@ant-design/icons
+734 silly ADD node_modules/@ant-design/fast-color
+735 silly ADD node_modules/@ant-design/cssinjs-utils
+736 silly ADD node_modules/@ant-design/cssinjs
+737 silly ADD node_modules/@ant-design/colors
+738 silly ADD node_modules/antd
+739 verbose cwd D:\APTECH\ReactJSS\day4\btvnday44
+740 verbose os Windows_NT 10.0.19045
+741 verbose node v24.12.0
+742 verbose npm  v11.6.2
+743 verbose exit 0
+744 info ok

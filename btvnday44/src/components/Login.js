@@ -10,6 +10,7 @@ const Login = () => {
   const [password, setpassword] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
+    
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const newuser = { email, password };
     users.push(newuser);
@@ -23,7 +24,7 @@ const Login = () => {
   };
 
   return (
-     <Box
+    <Box
       component="form"
       onSubmit={handleSubmit}
       sx={{
@@ -58,9 +59,7 @@ const Login = () => {
       </div>
 
       <Stack spacing={2} sx={{ mt: 2 }}>
-        <Button type="submit" variant="contained" fullWidth>
-          Log in
-        </Button>
+        <Button type="submit" variant="contained" fullWidth>Log in</Button>
       </Stack>
     </Box>
   );

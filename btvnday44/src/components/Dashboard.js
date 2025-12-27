@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -11,24 +11,16 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import useUser from "../Hook/useUser";
 
 const Dashboard = () => {
-  const [users, setuser] = useState([]);
+  const {users, setuser} = useUser(users, setuser);
   const [products, setproduct] = useState([]);
   const navigate = useNavigate();
 
   //xu ly log out
   const handleLogout = () => {
     navigate("/");
-  };
-
-  const fetchDataUsers = async () => {
-    try {
-      const reponse = await axios.get("https://fakestoreapi.com/users");
-      setuser(reponse.data ?? []);
-    } catch (error) {
-      console.error("Loi khi fake Data", error);
-    }
   };
 
   const fetchDataProducts = async () => {
@@ -39,10 +31,6 @@ const Dashboard = () => {
       console.error("Loi khi fake Data", error);
     }
   };
-
-  useEffect(() => {
-    fetchDataUsers();
-  }, []);
 
   useEffect(() => {
     fetchDataProducts();

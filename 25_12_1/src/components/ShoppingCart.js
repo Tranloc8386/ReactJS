@@ -17,6 +17,7 @@ const ShoppingCart = () => {
         <div key={item.id}>
           <h4>{item.title}</h4>
           <p>{item.price}</p>
+          <img src={item.image} alt={item.title} width="150px" />
           <p>{item.quantity}</p>
           <button onClick={() => removeFromCart(item.id)}>Xoa</button>
         </div>

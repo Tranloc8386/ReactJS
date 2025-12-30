@@ -1,8 +1,8 @@
-import React, { Children } from "react";
+import react from "react";
 import { createContext, useState } from "react";
 
 export const CartContext = createContext();
-const CartProvider = ({ children }) => {
+const CartProvider = ({children }) => {
   const [cartItems, setCartItems] = useState([]);
 
   //them vao gio hang
@@ -11,14 +11,10 @@ const CartProvider = ({ children }) => {
       const exist = e.find((item) => item.id === product.id);
 
       if (exist) {
-        return e.map((item) =>
-          item.id === product.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
+        return e.map((item) => item.id === product.id ? { ...item, quantity: item.quantity + 1 }: item );
       }
 
-      return [...e, { ...product, quantity: 1 }];
+      return [...e, { ...product, quantity: 1, image: product.image, }];
     });
   };
 
